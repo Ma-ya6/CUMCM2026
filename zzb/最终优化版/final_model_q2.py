@@ -27,7 +27,9 @@ FIGURE_DIR = HERE / "figures"
 RESULT_DIR.mkdir(exist_ok=True)
 FIGURE_DIR.mkdir(exist_ok=True)
 
-Q = 0.75
+# 0.80 直接来自 5 倍紧急电价下的报童临界比 4c/(4c+c)，是事前给定的理论值，
+# 不由任何评价期回测挑选；下方敏感性网格只作事后对照。
+Q = 0.80
 SPECIFIED_DATES = pd.to_datetime(
     ["2025-03-20", "2025-06-21", "2025-09-23", "2025-12-21"]
 )
@@ -176,7 +178,7 @@ def plot_specified(interval: pd.DataFrame) -> None:
 
 
 def risk_sensitivity(data, forecasts: dict) -> pd.DataFrame:
-    """固定预测，只改变风险分位数；开发期用于选参，留出期仅用于评价。"""
+    """固定预测，只改变风险分位数；本表仅作事后对照，不参与任何参数选择。"""
     actual_net = data.load_kw - data.pv_kw
     predicted_net = forecasts["load"] - forecasts["pv"]
     rows = []
@@ -238,7 +240,7 @@ def main() -> None:
         "dispatch": dispatch_numbers,
         "specified_dates": emergency.assign(date=emergency.date.astype(str)).to_dict("records"),
         "physical_validation": validation,
-        "development_selected_quantile": float(
+        "sensitivity_best_quantile_development_split": float(
             sensitivity[sensitivity.split == "开发期"]
             .sort_values("total_cost_yuan")
             .iloc[0]["quantile"]

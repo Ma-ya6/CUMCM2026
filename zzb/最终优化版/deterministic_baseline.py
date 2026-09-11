@@ -45,8 +45,21 @@ SPECIFIED_DATES = pd.to_datetime(
 )
 
 MODEL_DIR = Path(__file__).resolve().parent
-C_DIR = MODEL_DIR.parents[1]
-ATTACHMENT_DIR = C_DIR / "附件"
+
+
+def _locate_attachments() -> Path:
+    """在若干候选位置中查找附件目录，使本目录可脱离原路径独立运行。"""
+    candidates = []
+    for base in MODEL_DIR.parents:
+        candidates += [base / "附件", base / "C题" / "附件"]
+    candidates.append(Path(r"D:/Files/Work/Mathematical_Modeling/GuoSai/2026/C题/附件"))
+    for candidate in candidates:
+        if (candidate / "附件1.xlsx").exists() and (candidate / "附件2.xlsx").exists():
+            return candidate
+    raise FileNotFoundError("未找到附件1.xlsx/附件2.xlsx，请把本目录放回 C题 目录树下")
+
+
+ATTACHMENT_DIR = _locate_attachments()
 RESULT_DIR = MODEL_DIR / "results"
 FIGURE_DIR = MODEL_DIR / "figures"
 RESULT_DIR.mkdir(parents=True, exist_ok=True)

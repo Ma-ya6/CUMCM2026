@@ -1,7 +1,7 @@
 {
   "model": {
     "name": "季节水平预测+因果分位数安全余量+确定性LP",
-    "risk_quantile": 0.75,
+    "risk_quantile": 0.8,
     "weekly_effect_enabled": false,
     "causal_information_set": "第d天0:00仅使用j<d历史实际数据",
     "initial_state": "E_{1,0}=E_0=6000 kWh；随后逐日跨日连续递推",
@@ -75,46 +75,46 @@
     "evaluation_start": "2025-02-01",
     "evaluation_end": "2025-12-31",
     "n_days": 334,
-    "planned_purchase_kwh": 21650955.776854653,
-    "planned_cost_yuan": 13178193.98797387,
-    "emergency_kwh": 110059.38580262684,
-    "emergency_cost_yuan": 686116.8032368694,
-    "total_cost_yuan": 13864310.79121074,
-    "unused_plan_kwh": 1187730.6103120209,
-    "curtailed_pv_kwh": 1333138.6988619757,
-    "days_with_emergency": 150,
-    "daily_cost_p95_yuan": 63313.31016026145,
-    "daily_cost_cvar95_yuan": 72871.35055533257,
-    "final_soc_kwh": 5867.138881430008
+    "planned_purchase_kwh": 22011526.88370226,
+    "planned_cost_yuan": 13418699.150263045,
+    "emergency_kwh": 80111.19697589056,
+    "emergency_cost_yuan": 499559.6033686431,
+    "total_cost_yuan": 13918258.753631687,
+    "unused_plan_kwh": 1467144.6517810489,
+    "curtailed_pv_kwh": 1401730.2034035523,
+    "days_with_emergency": 124,
+    "daily_cost_p95_yuan": 63368.33762263228,
+    "daily_cost_cvar95_yuan": 71000.0503819283,
+    "final_soc_kwh": 5907.346059753024
   },
   "specified_dates": [
     {
       "date": "2025-03-20",
       "emergency_kwh": 0.0,
       "emergency_cost_yuan": 0.0,
-      "total_cost_yuan": 41483.47372366809
+      "total_cost_yuan": 42273.49723334542
     },
     {
       "date": "2025-06-21",
       "emergency_kwh": 0.0,
       "emergency_cost_yuan": 0.0,
-      "total_cost_yuan": 21373.56733246808
+      "total_cost_yuan": 21833.000710009223
     },
     {
       "date": "2025-09-23",
-      "emergency_kwh": 6.375,
-      "emergency_cost_yuan": 42.996187500000005,
-      "total_cost_yuan": 45128.194623286996
+      "emergency_kwh": 1.8876402835927593,
+      "emergency_cost_yuan": 12.731189892691365,
+      "total_cost_yuan": 46104.620564030505
     },
     {
       "date": "2025-12-21",
       "emergency_kwh": 0.0,
       "emergency_cost_yuan": 0.0,
-      "total_cost_yuan": 61884.565491890244
+      "total_cost_yuan": 62541.24800974358
     }
   ],
   "physical_validation": {
-    "max_abs_energy_balance_error_kwh": 2.8421709430404007e-13,
+    "max_abs_energy_balance_error_kwh": 2.2737367544323206e-13,
     "soc_below_min_count": 0,
     "soc_above_max_count": 0,
     "charge_power_violation_count": 0,
@@ -122,5 +122,5 @@
     "simultaneous_charge_discharge_count": 0,
     "negative_flow_count": 0
   },
-  "development_selected_quantile": 0.75
+  "sensitivity_best_quantile_development_split": 0.75
 }
