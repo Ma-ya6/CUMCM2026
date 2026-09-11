@@ -1,0 +1,126 @@
+{
+  "model": {
+    "name": "季节水平预测+因果分位数安全余量+确定性LP",
+    "risk_quantile": 0.75,
+    "weekly_effect_enabled": false,
+    "causal_information_set": "第d天0:00仅使用j<d历史实际数据",
+    "initial_state": "E_{1,0}=E_0=6000 kWh；随后逐日跨日连续递推",
+    "symbol_convention": [
+      {
+        "symbol": "c",
+        "meaning": "外网电价"
+      },
+      {
+        "symbol": "L",
+        "meaning": "小区负载功率"
+      },
+      {
+        "symbol": "P",
+        "meaning": "光伏功率"
+      },
+      {
+        "symbol": "x/y/r",
+        "meaning": "计划购电/实际使用计划购电/购电浪费功率"
+      },
+      {
+        "symbol": "g/w",
+        "meaning": "光伏实际使用/光伏浪费功率"
+      },
+      {
+        "symbol": "u/v",
+        "meaning": "储能充电/放电功率"
+      },
+      {
+        "symbol": "e",
+        "meaning": "紧急购电功率"
+      },
+      {
+        "symbol": "E",
+        "meaning": "储电量"
+      },
+      {
+        "symbol": "m",
+        "meaning": "净负荷安全余量"
+      }
+    ],
+    "storage": {
+      "eta_c": 0.9,
+      "eta_d": 0.9,
+      "e_min": 1200.0,
+      "e_max": 10800.0,
+      "p_max_kw": 5000.0
+    }
+  },
+  "forecast": {
+    "load": {
+      "mae_kw": 148.69853338415203,
+      "rmse_kw": 197.71825595280617,
+      "nmae": 0.03220830316130298,
+      "bias_kw": 2.096701326971268
+    },
+    "pv": {
+      "mae_kw": 149.87941305639617,
+      "rmse_kw": 304.11320525340943,
+      "nmae": 0.06300489307034912,
+      "bias_kw": 3.086472623397177
+    },
+    "net_load": {
+      "mae_kw": 247.43132838254658,
+      "rmse_kw": 362.7690483428761,
+      "nmae": 0.08245136285923799,
+      "bias_kw": -0.9897712964259068
+    }
+  },
+  "dispatch": {
+    "evaluation_start": "2025-02-01",
+    "evaluation_end": "2025-12-31",
+    "n_days": 334,
+    "planned_purchase_kwh": 21650955.776854653,
+    "planned_cost_yuan": 13178193.98797387,
+    "emergency_kwh": 110059.38580262684,
+    "emergency_cost_yuan": 686116.8032368694,
+    "total_cost_yuan": 13864310.79121074,
+    "unused_plan_kwh": 1187730.6103120209,
+    "curtailed_pv_kwh": 1333138.6988619757,
+    "days_with_emergency": 150,
+    "daily_cost_p95_yuan": 63313.31016026145,
+    "daily_cost_cvar95_yuan": 72871.35055533257,
+    "final_soc_kwh": 5867.138881430008
+  },
+  "specified_dates": [
+    {
+      "date": "2025-03-20",
+      "emergency_kwh": 0.0,
+      "emergency_cost_yuan": 0.0,
+      "total_cost_yuan": 41483.47372366809
+    },
+    {
+      "date": "2025-06-21",
+      "emergency_kwh": 0.0,
+      "emergency_cost_yuan": 0.0,
+      "total_cost_yuan": 21373.56733246808
+    },
+    {
+      "date": "2025-09-23",
+      "emergency_kwh": 6.375,
+      "emergency_cost_yuan": 42.996187500000005,
+      "total_cost_yuan": 45128.194623286996
+    },
+    {
+      "date": "2025-12-21",
+      "emergency_kwh": 0.0,
+      "emergency_cost_yuan": 0.0,
+      "total_cost_yuan": 61884.565491890244
+    }
+  ],
+  "physical_validation": {
+    "max_abs_energy_balance_error_kwh": 2.8421709430404007e-13,
+    "soc_below_min_count": 0,
+    "soc_above_max_count": 0,
+    "charge_power_violation_count": 0,
+    "discharge_power_violation_count": 0,
+    "simultaneous_charge_discharge_count": 0,
+    "negative_flow_count": 0
+  },
+  "development_selected_quantile": 0.75
+}
