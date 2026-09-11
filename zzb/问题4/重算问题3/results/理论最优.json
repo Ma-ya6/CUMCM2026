@@ -1,0 +1,25 @@
+{
+  "note": "全知条件下问题3 的链式结构是松的，故理论最优与问题2 相同",
+  "price_channel": "附件4 实际电价（365×144）",
+  "evaluation": "2025-02-01—2025-12-31，334 天 / 48,096 时段",
+  "oracle_full_year_joint_yuan": 12782591.808513468,
+  "reproduces_q4_2_frozen": true,
+  "q4_2_frozen_yuan": 12782591.808513468,
+  "attainability": {
+    "rule": "四时点承诺取同值，Δ±=0，链式结算退化为 Σ c·x",
+    "realized_plan_cost_yuan": 12782591.808513459,
+    "realized_emergency_cost_yuan": 2.810336146019665e-10,
+    "realized_total_yuan": 12782591.808513459,
+    "emergency_kwh": 4.624700622457567e-11,
+    "gap_vs_lp_yuan": -9.313225746154785e-09
+  },
+  "purchase_kwh_formal": 20236466.06240364,
+  "comparison_yuan": {
+    "theoretical_optimum": 12782591.808513468,
+    "m9_realized": 14138543.962760434,
+    "m9_minus_optimum": 1355952.1542469654,
+    "m9_minus_optimum_pct": 10.60780297579301,
+    "perfect_price_m9": 14072142.491091568,
+    "perfect_price_minus_optimum": 1289550.6825781
+  }
+}
