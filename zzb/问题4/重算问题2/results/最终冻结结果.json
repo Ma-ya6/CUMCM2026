@@ -1,0 +1,143 @@
+{
+  "model": {
+    "name": "波动电价下的季节水平预测+因果分位数安全余量+确定性LP",
+    "risk_quantile": 0.8,
+    "risk_quantile_basis": "5倍紧急电价下的报童临界比 4c/(4c+c)，与c无关",
+    "weekly_effect_enabled": false,
+    "causal_information_set": "第d天0:00仅使用j<d的历史实际电价/负载/光伏",
+    "price_information_set": "当天电价不可预知，须由j<d历史电价因果预测",
+    "settlement": "计划购电按c·x、紧急购电按5c·e结算，均用当天实际电价；LP目标用预测电价",
+    "initial_state": "E_{1,0}=E_0=6000 kWh；随后逐日跨日连续递推",
+    "symbol_convention": [
+      {
+        "symbol": "c",
+        "meaning": "外网电价（逐日逐时段波动）"
+      },
+      {
+        "symbol": "L",
+        "meaning": "小区负载功率"
+      },
+      {
+        "symbol": "P",
+        "meaning": "光伏功率"
+      },
+      {
+        "symbol": "x/y/r",
+        "meaning": "计划购电/实际使用计划购电/购电浪费功率"
+      },
+      {
+        "symbol": "g/w",
+        "meaning": "光伏实际使用/光伏浪费功率"
+      },
+      {
+        "symbol": "u/v",
+        "meaning": "储能充电/放电功率"
+      },
+      {
+        "symbol": "e",
+        "meaning": "紧急购电功率"
+      },
+      {
+        "symbol": "E",
+        "meaning": "储电量"
+      },
+      {
+        "symbol": "m",
+        "meaning": "净负荷安全余量"
+      }
+    ],
+    "storage": {
+      "eta_c": 0.9,
+      "eta_d": 0.9,
+      "e_min": 1200.0,
+      "e_max": 10800.0,
+      "p_max_kw": 5000.0
+    }
+  },
+  "forecast": {
+    "load": {
+      "mae_kw": 148.69853338415203,
+      "rmse_kw": 197.71825595280617,
+      "nmae": 0.03220830316130298,
+      "bias_kw": 2.096701326971268
+    },
+    "pv": {
+      "mae_kw": 149.87941305639617,
+      "rmse_kw": 304.11320525340943,
+      "nmae": 0.06300489307034912,
+      "bias_kw": 3.086472623397177
+    },
+    "net_load": {
+      "mae_kw": 247.43132838254658,
+      "rmse_kw": 362.7690483428761,
+      "nmae": 0.08245136285923799,
+      "bias_kw": -0.9897712964259068
+    }
+  },
+  "price_forecast": {
+    "mae_yuan_per_kwh": 0.03994072946408606,
+    "rmse_yuan_per_kwh": 0.05402700745893756,
+    "nmae": 0.052725120093578715,
+    "bias_yuan_per_kwh": 0.0012823787129868434,
+    "mean_actual_yuan_per_kwh": 0.7575275199600799
+  },
+  "dispatch": {
+    "evaluation_start": "2025-02-01",
+    "evaluation_end": "2025-12-31",
+    "n_days": 334,
+    "planned_purchase_kwh": 22032122.52696639,
+    "planned_cost_yuan": 14160574.09556241,
+    "emergency_kwh": 77165.86291098525,
+    "emergency_cost_yuan": 493503.49140902405,
+    "total_cost_yuan": 14654077.586971432,
+    "unused_plan_kwh": 1435523.9287903036,
+    "curtailed_pv_kwh": 1432173.6237880592,
+    "days_with_emergency": 112,
+    "daily_cost_p95_yuan": 74434.16281662851,
+    "daily_cost_cvar95_yuan": 80780.7729088072,
+    "final_soc_kwh": 5924.851962762246
+  },
+  "perfect_price_information": {
+    "total_cost_yuan": 14605084.966118416,
+    "emergency_kwh": 79893.97361992463,
+    "days_with_emergency": 123,
+    "perfect_price_minus_forecast_yuan": -48992.62085301615,
+    "note": "电价可预知的对照口径，不属于可实现的策略；负值表示完美电价信息下费用更低，其绝对值即电价不可预知的代价"
+  },
+  "specified_dates": [
+    {
+      "date": "2025-03-20",
+      "emergency_kwh": 0.0,
+      "emergency_cost_yuan": 0.0,
+      "total_cost_yuan": 43222.99926332767
+    },
+    {
+      "date": "2025-06-21",
+      "emergency_kwh": 0.0,
+      "emergency_cost_yuan": 0.0,
+      "total_cost_yuan": 19086.463231612273
+    },
+    {
+      "date": "2025-09-23",
+      "emergency_kwh": 6.806530228432393,
+      "emergency_cost_yuan": 44.07568649421396,
+      "total_cost_yuan": 48307.70551534058
+    },
+    {
+      "date": "2025-12-21",
+      "emergency_kwh": 0.0,
+      "emergency_cost_yuan": 0.0,
+      "total_cost_yuan": 73243.93811658816
+    }
+  ],
+  "physical_validation": {
+    "max_abs_energy_balance_error_kwh": 2.2737367544323206e-13,
+    "soc_below_min_count": 0,
+    "soc_above_max_count": 0,
+    "charge_power_violation_count": 0,
+    "discharge_power_violation_count": 0,
+    "simultaneous_charge_discharge_count": 0,
+    "negative_flow_count": 0
+  },
+  "sensitivity_best_quantile_development_split": 0.75
+}

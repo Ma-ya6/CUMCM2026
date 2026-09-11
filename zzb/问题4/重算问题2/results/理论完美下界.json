@@ -1,0 +1,36 @@
+{
+  "note": "储能约束、初始SOC=6000、年末SOC=6000、统计区间(2025-02-01起)四口径完全一致",
+  "realized": {
+    "total_cost_yuan": 14654077.586971432,
+    "purchase_kwh": 22032122.52696639,
+    "charge_kwh": NaN,
+    "discharge_kwh": NaN,
+    "curtailment_kwh": 1432173.6237880592,
+    "emergency_kwh": 77165.86291098525
+  },
+  "perfect_price": {
+    "total_cost_yuan": 14605084.966118416,
+    "purchase_kwh": NaN,
+    "charge_kwh": NaN,
+    "discharge_kwh": NaN,
+    "curtailment_kwh": NaN,
+    "emergency_kwh": 79893.97361992463
+  },
+  "perfect_forecast_daily_decision": {
+    "total_cost_yuan": 12939133.655748356,
+    "purchase_kwh": 20386278.01667523,
+    "charge_kwh": 7690739.112612756,
+    "discharge_kwh": 6233818.681216333,
+    "curtailment_kwh": 990168.0903121401,
+    "emergency_kwh": 1.0572596131908086e-10
+  },
+  "oracle_full_year_joint": {
+    "total_cost_yuan": 12782591.808513468,
+    "purchase_kwh": 20236466.06240364,
+    "charge_kwh": 6885202.511183334,
+    "discharge_kwh": 5578094.034058499,
+    "curtailment_kwh": 990168.0903121397,
+    "emergency_kwh": 0.0
+  },
+  "realized_minus_oracle_yuan": 1871485.7784579638
+}
