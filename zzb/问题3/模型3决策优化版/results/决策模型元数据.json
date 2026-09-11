@@ -1,0 +1,8 @@
+{
+  "model3_frozen_cost_yuan": 13748164.499748463,
+  "M2_reproduces_model3": true,
+  "M2_cost_yuan": 13748164.499748461,
+  "argmin_dev_period": "M10",
+  "argmin_holdout_period": "M10",
+  "argmin_full_period": "M10"
+}
