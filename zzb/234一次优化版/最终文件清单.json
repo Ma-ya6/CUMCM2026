@@ -1,0 +1,231 @@
+{
+  "说明": "这些文件共同构成问题2/3/4的最终封版；SHA-256用于检查复制与后续漂移。",
+  "前缀不变性": "16组逐位一致，最大偏差0",
+  "文件": [
+    {
+      "路径": "README.md",
+      "字节": 1714,
+      "sha256": "6ae42842650ce0f52631bdb754932ff1d1ee170ff47f56837eaf38bec621ff02"
+    },
+    {
+      "路径": "opt\\结果冻结.json",
+      "字节": 50264,
+      "sha256": "9804aace1a33e69f63677431a46aec576c818ab714f03182df2838887a116f38"
+    },
+    {
+      "路径": "opt\\结果冻结.md",
+      "字节": 5753,
+      "sha256": "d6bd80a0bb8760f98c3653e9862fdd80a1b228df3c85f875fed3f2c9816336d5"
+    },
+    {
+      "路径": "opt\\汇总对比.md",
+      "字节": 12299,
+      "sha256": "31dfeceeb73cd962566b71cd014bd4dc3b5b9a4136c5f6fb994530c40d923362"
+    },
+    {
+      "路径": "opt\\补充检验.md",
+      "字节": 11361,
+      "sha256": "eb506bd31672331dcc837527d7ca00982fc5acf1ef1352958617ecf7da37732e"
+    },
+    {
+      "路径": "opt\\可靠性Pareto.md",
+      "字节": 4073,
+      "sha256": "ac32429a430d5da637da36b7fb611b1a2ce8e785b4120fd6f039a7698519810a"
+    },
+    {
+      "路径": "opt\\前缀不变性.md",
+      "字节": 3149,
+      "sha256": "a257283a15ef29f96c8e9ed25f23a501723f7a25623bb2ad7fa8c85a10fa04d6"
+    },
+    {
+      "路径": "opt\\exact验证.md",
+      "字节": 1500,
+      "sha256": "4c8f30eb0d96453753b1c92f2623eba2486a5a84b753651b23d765f75776212b"
+    },
+    {
+      "路径": "opt\\模型对比重跑.md",
+      "字节": 5987,
+      "sha256": "2d45cc643f87321c342c0516c010f93091b9b23e954303206516fb7e758aac18"
+    },
+    {
+      "路径": "opt\\预测层增强消融.md",
+      "字节": 848,
+      "sha256": "9594c5effed757b2b383761e67bfe924960a1d30ceeabe3eeb509337ff259cf2"
+    },
+    {
+      "路径": "问题2最终模型\\模型评价_问题2.md",
+      "字节": 21943,
+      "sha256": "7a17f4c98bc24ed3fcecd561d6f4076ddd35b75cb37737ca5b8f347a7f5cedb7"
+    },
+    {
+      "路径": "问题3最终模型\\模型评价_问题3.md",
+      "字节": 31551,
+      "sha256": "f7a061b50fecfb6d7e470fa0e0f2abc42a25bba1bcfbc613503003792cbb1f7c"
+    },
+    {
+      "路径": "问题4最终模型\\模型评价_问题4.md",
+      "字节": 30112,
+      "sha256": "3d0c3c32fd6055ee76f93ef0021fe9696f82b08d7f385904263cd48b4c7c1d48"
+    },
+    {
+      "路径": "opt\\check_chain_equiv.py",
+      "字节": 4216,
+      "sha256": "ae71a1cf9a19fa65a21f0737d8c165b44ba65c3359eb9940738bf4d5020c5e6d"
+    },
+    {
+      "路径": "opt\\check_core.py",
+      "字节": 5776,
+      "sha256": "4e087a4a0b338206e71221ee4e3c498d7409330963096ce66f4367dc3868ae71"
+    },
+    {
+      "路径": "opt\\check_exact.py",
+      "字节": 7731,
+      "sha256": "5ddbeb4ce647e60f27317bd50bca37525d68e2cc53a07f036f6565608ce48c01"
+    },
+    {
+      "路径": "opt\\check_extra.py",
+      "字节": 15815,
+      "sha256": "9d8525d4ae5be337531c48b78edd6aebbb2559fc851d33d6a343ca6d1c7c17ae"
+    },
+    {
+      "路径": "opt\\check_pareto.py",
+      "字节": 4581,
+      "sha256": "b374c3df854f4c923e03628e06d5f220e0b93a51000bab413c2ae4e25fcc8d8a"
+    },
+    {
+      "路径": "opt\\check_prefix.py",
+      "字节": 9897,
+      "sha256": "a6ab5c23abab8945cc3f89f6ab40acd4a728ce2257d80af842ac6b3830cedfe9"
+    },
+    {
+      "路径": "opt\\dec_weight.py",
+      "字节": 17656,
+      "sha256": "c09a9666892c7c2aeee93819fca4aa61f5c3f4ec50912f5772d30fb553a8e409"
+    },
+    {
+      "路径": "opt\\finalize.py",
+      "字节": 6088,
+      "sha256": "0ae71745f67231e8ac500b421cdb7ff4a2a090dc51111553a4580a6c565e45eb"
+    },
+    {
+      "路径": "opt\\freeze.py",
+      "字节": 12178,
+      "sha256": "959463ee0060db2d21d286e303dd8973840ed32c8a11710071415fcdea75280f"
+    },
+    {
+      "路径": "opt\\joint_stage.py",
+      "字节": 3273,
+      "sha256": "ba87487b56a4d116d27ada4ccab45de569fe594ec8f70b381f50c947cf029906"
+    },
+    {
+      "路径": "opt\\opt_core.py",
+      "字节": 25814,
+      "sha256": "a17c863dd360c820c1032df7c037df1072cb72d294a64b49e7be799c02771de1"
+    },
+    {
+      "路径": "opt\\rebuild_upstream.py",
+      "字节": 4563,
+      "sha256": "75dbf45ab4c12d7802b0768d1d48c74ee83cc51e3d759868765fb4fe7a5d9375"
+    },
+    {
+      "路径": "opt\\rerun_models.py",
+      "字节": 6811,
+      "sha256": "2a666668430ec5eca85fba16506665dd1d381ac2e611c95c8c97671e430f0432"
+    },
+    {
+      "路径": "opt\\run_dw.py",
+      "字节": 15395,
+      "sha256": "875a5dce1b02b9ffb1f7b7793af22e0765e10ea4b6c0a901c504e9ea9dcf5b6b"
+    },
+    {
+      "路径": "opt\\run_single.py",
+      "字节": 10988,
+      "sha256": "f5aba69d645c4f3716e9e87f6ac8b2a4df5483955ce1cb4f3529b8a6612072e7"
+    },
+    {
+      "路径": "opt\\run_stage.py",
+      "字节": 17233,
+      "sha256": "643030f18f2071738093ab49c8fbdd0578f34116ec02945d468365bfe4fdcdbd"
+    },
+    {
+      "路径": "opt\\summarize_ab.py",
+      "字节": 2335,
+      "sha256": "15827ae620c3b859ad00d3b191187cceed59af4e499a20d3119a0c1547f50ee5"
+    },
+    {
+      "路径": "opt\\summarize_all.py",
+      "字节": 15832,
+      "sha256": "3cfff98f5dfdb53e6fc026a35f6a17922828d7f679226047cbef91137267cb79"
+    },
+    {
+      "路径": "..\\问题3\\模型3决策优化版\\forecasts.py",
+      "字节": 13468,
+      "sha256": "713b7fe92a0cde2be0e80469e7915a41c1890001d4338e44a2094cb29b3cb300"
+    },
+    {
+      "路径": "..\\问题4\\重算问题3\\forecasts.py",
+      "字节": 13468,
+      "sha256": "713b7fe92a0cde2be0e80469e7915a41c1890001d4338e44a2094cb29b3cb300"
+    },
+    {
+      "路径": "问题2最终模型\\结果\\Q2_阶梯.json",
+      "字节": 3120,
+      "sha256": "8408edd0e92de6b32b0db0da5999136afa504f03ac43df9013315bfb786c366d"
+    },
+    {
+      "路径": "问题2最终模型\\结果\\Q2_reserve-mpc_逐日.csv",
+      "字节": 69205,
+      "sha256": "377646ae1ab3267c02dcb8846e1ff36b0821eb2f86a14bc4234fd96fd4a3254a"
+    },
+    {
+      "路径": "问题3最终模型\\结果\\Q3_阶梯.json",
+      "字节": 15139,
+      "sha256": "f08807045d82410d794cb0338bcd0c06c5225d72661bf6e162e4c73df6d1c0f0"
+    },
+    {
+      "路径": "问题3最终模型\\结果\\Q3_exact-greedy_逐日.csv",
+      "字节": 114424,
+      "sha256": "bc1e0359f38b2d0f5b83a6e07410d2e3cdc9d4250e85caa725c45c8774ae43df"
+    },
+    {
+      "路径": "问题3最终模型\\结果\\Q3_exact-greedy_承诺路径.csv",
+      "字节": 2714768,
+      "sha256": "1b26fe6d0ef424363ae8881779d0f3d542f4d7fb002f6adab33b1385dcbd744d"
+    },
+    {
+      "路径": "问题3最终模型\\结果\\Q3_上游重算_逐日.csv",
+      "字节": 95513,
+      "sha256": "f0e01efde18140b92c79632736f70ffb7a051a449a98ee841da87b6aeee3b1e3"
+    },
+    {
+      "路径": "问题4最终模型\\结果\\Q4-2_阶梯.json",
+      "字节": 3115,
+      "sha256": "affb3f175f6de65ad664e940bcc0c7c0e5db9d97881e28c7db06b3a8a3ce5e16"
+    },
+    {
+      "路径": "问题4最终模型\\结果\\Q4-2_reserve-mpc_逐日.csv",
+      "字节": 68985,
+      "sha256": "7ac04f109bed9c88acf2dbcbd5e3b0f4a3dad612cbc30e8f5b03bf03b0815387"
+    },
+    {
+      "路径": "问题4最终模型\\结果\\Q4-3_阶梯.json",
+      "字节": 15136,
+      "sha256": "21f1d707964fb5311200bd0f34b72873201662544eadf31b7778d641f84741ab"
+    },
+    {
+      "路径": "问题4最终模型\\结果\\Q4-3_exact-greedy_逐日.csv",
+      "字节": 114430,
+      "sha256": "0264cea4c15cac4fab1dfe97f83f3902cc1c20de015f6d975ffb5cdb196064b2"
+    },
+    {
+      "路径": "问题4最终模型\\结果\\Q4-3_exact-greedy_承诺路径.csv",
+      "字节": 2714649,
+      "sha256": "923032ee3cccb163f0f345776575c172b46f55af60d138cc9fceb65ed3b9df0b"
+    },
+    {
+      "路径": "问题4最终模型\\结果\\Q4-3_上游重算_逐日.csv",
+      "字节": 95373,
+      "sha256": "250407696dc3b0fbfca14867cf8bda39d6ba19128e6febf99af9e22b59703e1a"
+    }
+  ]
+}
