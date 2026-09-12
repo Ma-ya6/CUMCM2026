@@ -161,17 +161,22 @@ def execute(commit, load, pv, price, energy, lfc, pfc, *, mpc, last_day, physica
     out["end_energy"] = float(energy)
     return out
 
-def simulate(a, problem, days=None):
+def simulate(a, problem, days=None, issue_hours=None):
     staged = problem in ("Q3", "Q4-3")
     mpc = not staged
     variable = problem.startswith("Q4")
+    hours = tuple(issue_hours) if issue_hours is not None else HOURS
+    if not set(hours) <= set(HOURS):
+        raise ValueError(f"issue_hours must be a subset of {HOURS}, got {hours}")
+    stage_hours = hours if staged else (0,)
+    n_stage = len(stage_hours)
     n = min(days or len(a["load"]), len(a["load"]))
     dates = pd.DatetimeIndex(a["dates"])
     e = oc.E_INITIAL
     carry = 0.
-    carry_path = np.zeros(4)
+    carry_path = np.zeros(n_stage)
     rows, detail, plans, audit = [], [], [], {}
-    error_history = {k: [] for k in HOURS}
+    error_history = {k: [] for k in hours}
     start_time = time.time()
     for d in range(n):
         e_start = e
@@ -187,7 +192,7 @@ def simulate(a, problem, days=None):
         hist = error_history[0]
         reserve = max(0., float(np.quantile(hist, .80))) if len(hist) >= 20 else 0.
         x = oc.stage_lp(pl, pp, pc, pred_e, settle="none", reserve=reserve)
-        paths = np.tile(x, (4, 1))
+        paths = np.tile(x, (n_stage, 1))
         min_path = x.copy()
         ex = {key: np.zeros(144) for key in oc._DAY_KEYS}
         # Actual first interval executes only AFTER the 00:00 new-plan calculation.
@@ -199,7 +204,6 @@ def simulate(a, problem, days=None):
             ex[key][0] = first[key][0]
         current_pred = {0: (lf.copy(), pf.copy())}
         effective = np.r_[carry, x[:143]]
-        stage_hours = HOURS if staged else (0,)
         for pos, k in enumerate(stage_hours):
             begin = 1 if k == 0 else k*6
             if k:
