@@ -9,7 +9,6 @@
 ## 一、怎么跑
 
 ```powershell
-cd C:\Users\21187\Desktop\数模\CUMCM2026-github\zzb\234codex版
 python plot_result_figures.py
 ```
 
