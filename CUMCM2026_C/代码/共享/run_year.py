@@ -5,6 +5,7 @@ import hashlib
 import importlib
 import json
 import sys
+import tempfile
 import time
 from pathlib import Path
 from types import SimpleNamespace
@@ -309,12 +310,18 @@ def simulate(a, problem, days=None, issue_hours=None):
     return result
 
 def main():
+    global OUT_OVERRIDE
     if hasattr(sys.stdout, "reconfigure"):
         sys.stdout.reconfigure(encoding="utf-8", errors="replace")
     ap = argparse.ArgumentParser()
     ap.add_argument("--problem", choices=("Q2", "Q3", "Q4-2", "Q4-3"))
     ap.add_argument("--days", type=int)
     args = ap.parse_args()
+    if args.days is not None and not 1 <= args.days <= 365:
+        ap.error("--days must be between 1 and 365")
+    if args.days is not None and args.days < 365:
+        OUT_OVERRIDE = Path(tempfile.mkdtemp(prefix="cumcm-short-run-"))
+        print(f"Short-run artifacts: {OUT_OVERRIDE}", flush=True)
     a = prepare()
     results = [simulate(a, p, args.days) for p in ([args.problem] if args.problem else ("Q2", "Q3", "Q4-2", "Q4-3"))]
     if not args.days:
