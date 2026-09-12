@@ -6,7 +6,7 @@
 
 ---
 
-## 一、怎么跑
+## 一、怎么跑（需cd进入当前目录）
 
 ```powershell
 python plot_result_figures.py
