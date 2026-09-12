@@ -1,0 +1,450 @@
+{
+  "source_results": "234codex版/results",
+  "files": [
+    {
+      "file": "表格\\Q2_reserve-mpc_SOC范围与储备.csv",
+      "rows": 334,
+      "columns": 8,
+      "sha256": "a810032ac8d43143705b35c23f250b39b5598543656d60df0a5d948003be4678"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_典型周_调度.csv",
+      "rows": 1008,
+      "columns": 30,
+      "sha256": "856a5a39daa3981c1951d968bf9deccef8ae912936ccf6926a99ae8777ee24bd"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_四个指定日期_调度.csv",
+      "rows": 576,
+      "columns": 30,
+      "sha256": "5c03ba2fb7155a9db54385d3727a34d0425e586d445939fc91754fb98c0c6878"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_指定日期_表1.csv",
+      "rows": 4,
+      "columns": 10,
+      "sha256": "846fa8ddab1c24f6e07d0c20309ccb431c2b17d3e72a0f83ed6dcd9ec2621be5"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_指定日期_表2.csv",
+      "rows": 4,
+      "columns": 15,
+      "sha256": "ab820ba4fc5a6ffd932dfff5933eaeca71c997f7765501006a230b5e201becf0"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_指定日期_表3.csv",
+      "rows": 11,
+      "columns": 3,
+      "sha256": "04c883c56cea0a6827d1f159b485eef02f7d6dff567febd9e443c50d262e2526"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_最终分位风险覆盖率.csv",
+      "rows": 1,
+      "columns": 6,
+      "sha256": "e3b460e2e78f6b32609956e9ae94157e27b47efd671bcded5b77502b8f6079c0"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_月度统计.csv",
+      "rows": 11,
+      "columns": 11,
+      "sha256": "89ad7a5e28f987a60440a2df712d7f3b091f17f03a0fb94e8c952f50a9635cca"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_表A_逐10分钟.csv",
+      "rows": 48096,
+      "columns": 30,
+      "sha256": "0d3efb56a8141ebb33981b90d287cc316dd456b83c1f1088afda157e82685e68"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_表B_逐日.csv",
+      "rows": 334,
+      "columns": 31,
+      "sha256": "75c5503ad524fbcbff000dd14994caee204856981dc82ab53e56ba764b5be12c"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_计划日144段.csv",
+      "rows": 48096,
+      "columns": 10,
+      "sha256": "16424ed12fe31aae94261bfc65b02d2901b6f64ecb7589d1836df3d315f3cd2c"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_预测与朴素基准对比.csv",
+      "rows": 4,
+      "columns": 5,
+      "sha256": "a42d5720e1b534af460633a2f2d4e1c6e9b47268e379e2576214dbc6fd7e218d"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_预测误差分位带.csv",
+      "rows": 432,
+      "columns": 9,
+      "sha256": "f6d3d9bb444a07622bd85244cf18e1211760ef32d671428496dd8c6a5a649a6f"
+    },
+    {
+      "file": "表格\\Q2_reserve-mpc_预测误差明细.csv",
+      "rows": 48096,
+      "columns": 7,
+      "sha256": "739cfc9a07f2e435571a182edbb9219514e53fa2809b17b9abe7546ca0e8ca00"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_SOC范围与储备.csv",
+      "rows": 334,
+      "columns": 8,
+      "sha256": "332534da94117640ae6f594f50d37b44de6bbf977df217c59caa06e193ae341f"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_典型周_调度.csv",
+      "rows": 1008,
+      "columns": 30,
+      "sha256": "5761b45fb7cbfb1bb274519b908a37a472f9b9a1506f8f53cc11c927f29c35f8"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_四个指定日期_调度.csv",
+      "rows": 576,
+      "columns": 30,
+      "sha256": "4c8d58c73459124698680bc3de3eb95c84aa1817e0c67de3bb1b3516fcd0e01b"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_指定日期_表1.csv",
+      "rows": 4,
+      "columns": 10,
+      "sha256": "5df197b645351f0bc3c0de23c0c2516f73a1e69e805676771acde2478d372d47"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_指定日期_表2.csv",
+      "rows": 4,
+      "columns": 15,
+      "sha256": "9f33deee874911dc649c3feeb58d74bc4a490bf678ff973a534f4bcdbe04b6d5"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_指定日期_表3.csv",
+      "rows": 3,
+      "columns": 3,
+      "sha256": "7e4d9a41cda25256287084fd3dc8fd27f41b8308c6f84a8768660c8ad46016b1"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_最终分位风险覆盖率.csv",
+      "rows": 4,
+      "columns": 6,
+      "sha256": "339fea5d5f24c6a5f78b528c7fc3aa1d3f74a7f3b499b8a4388d70113bf1a883"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_月度统计.csv",
+      "rows": 11,
+      "columns": 11,
+      "sha256": "df8c1271697edb835fa32fcae8e0cd69f3ffa4d3360ff42ffa33e112045c7ed2"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_表A_逐10分钟.csv",
+      "rows": 48096,
+      "columns": 30,
+      "sha256": "38085d4f6077c3fc48b548d568cbd49a186ce6d90171c32837886748340295bc"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_表B_逐日.csv",
+      "rows": 334,
+      "columns": 37,
+      "sha256": "653038615f3ed05f6e60ea0a3d5db518ba761e61e37bb27b420566f8a05c02e6"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_表C_承诺路径_自然日对齐.csv",
+      "rows": 48096,
+      "columns": 12,
+      "sha256": "e276b24e24a41b9bb82cdfaf0fae84548b72a331c3a916b8a98cad64cbc4a636"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_计划日144段.csv",
+      "rows": 48096,
+      "columns": 10,
+      "sha256": "ed1920a9f3ac8c8a6213423d2d385f6c47c21fa700b71e780e15ed2ec2a398c2"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_预测与朴素基准对比.csv",
+      "rows": 4,
+      "columns": 5,
+      "sha256": "9b60c454ab8b292538dc827d1456fe79f90d0cce7f699c0af97fab0ee4a01448"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_预测误差分位带.csv",
+      "rows": 432,
+      "columns": 9,
+      "sha256": "a17e0c8b4044c3f2ac8eb70db12682130f714197b9a91b53dce5c0731c55de93"
+    },
+    {
+      "file": "表格\\Q3_exact-greedy_预测误差明细.csv",
+      "rows": 48096,
+      "columns": 7,
+      "sha256": "068cc06cf5d54dec9949e3cac73711d003008559dbc5a731ac7f419f651edecf"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_SOC范围与储备.csv",
+      "rows": 334,
+      "columns": 8,
+      "sha256": "86818edcaf18591c907e70b6cf5b05d1a256cc4f3d0ae6f83aca15faebeb3f2a"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_典型周_调度.csv",
+      "rows": 1008,
+      "columns": 30,
+      "sha256": "80100928f204c17ffdca9ed93670e7f49b74357c6da3143e54a845cb3b05bf57"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_四个指定日期_调度.csv",
+      "rows": 576,
+      "columns": 30,
+      "sha256": "b4e7c4201a477e592630f881f2ce25265a6bb298f87c4ef4aa5a56c908a8fadd"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_指定日期_表1.csv",
+      "rows": 4,
+      "columns": 10,
+      "sha256": "070bb14b174a4692be10d660ecd447776a3463053c3f9dfef9b4b9cf01d7429a"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_指定日期_表2.csv",
+      "rows": 4,
+      "columns": 15,
+      "sha256": "2059bf5a07a977be8ae3f527fb6bb36d1989cdcbc62043adcb47d0b598ad931b"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_指定日期_表3.csv",
+      "rows": 12,
+      "columns": 3,
+      "sha256": "a40e5144105d9ddeea7feb8bcc6952f1450d9e1154cb9377ac2bc3a10bb7df99"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_最终分位风险覆盖率.csv",
+      "rows": 1,
+      "columns": 6,
+      "sha256": "1526cfcff6fe974dfcd8414c2fcf5d75baf25163e6c7ce5efc6c4ab9d506d009"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_月度统计.csv",
+      "rows": 11,
+      "columns": 11,
+      "sha256": "a62de86c538d6805f152f13c9a2898d38ab4973498a04910b2f48b2ded4a1227"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_表A_逐10分钟.csv",
+      "rows": 48096,
+      "columns": 30,
+      "sha256": "0a5b4903ae4d617bcbed0f1191b622570f34f82e3ee08749f91affea69abe1ba"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_表B_逐日.csv",
+      "rows": 334,
+      "columns": 31,
+      "sha256": "7708946e8bdda161f7677b6b2270e78f67348b74152cade1a31ff5cc5decd8d8"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_计划日144段.csv",
+      "rows": 48096,
+      "columns": 10,
+      "sha256": "d3996c027f77c18818bb869f1bea4dd04f23eb64e2a8b235cbfeac7bbbb39897"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_预测与朴素基准对比.csv",
+      "rows": 4,
+      "columns": 5,
+      "sha256": "a42d5720e1b534af460633a2f2d4e1c6e9b47268e379e2576214dbc6fd7e218d"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_预测误差分位带.csv",
+      "rows": 432,
+      "columns": 9,
+      "sha256": "f6d3d9bb444a07622bd85244cf18e1211760ef32d671428496dd8c6a5a649a6f"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_预测误差明细.csv",
+      "rows": 48096,
+      "columns": 7,
+      "sha256": "739cfc9a07f2e435571a182edbb9219514e53fa2809b17b9abe7546ca0e8ca00"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_SOC范围与储备.csv",
+      "rows": 334,
+      "columns": 8,
+      "sha256": "ed0dd6270211547d7bb1cdb12e6abb3eaafe921adcd8437db7cd50966d128599"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_典型周_调度.csv",
+      "rows": 1008,
+      "columns": 30,
+      "sha256": "a74ed9cf358a76d590c82fd5b587291bdfe873e44a0d917595c040fb9294cc18"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_四个指定日期_调度.csv",
+      "rows": 576,
+      "columns": 30,
+      "sha256": "39617cc8e1c0f3d96781da80a4633065b0ed87dcbb46f12e45f3239dd98bc770"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_指定日期_表1.csv",
+      "rows": 4,
+      "columns": 10,
+      "sha256": "773bd25be0a226474212ba414f097d38fb177d44ab7aeb77c967118a61e8251b"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_指定日期_表2.csv",
+      "rows": 4,
+      "columns": 15,
+      "sha256": "7b02102cdf3c1729535394ded80f1557d92dcb3b1db2f229ede77e663da75d3e"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_指定日期_表3.csv",
+      "rows": 4,
+      "columns": 3,
+      "sha256": "7a3ca37a5dff687bc2113e84d04c9f53b97d1e492ef4b9da992e8f1037a30588"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_最终分位风险覆盖率.csv",
+      "rows": 4,
+      "columns": 6,
+      "sha256": "3b7eb8502a93b2cdf8809e324456ff21c6c55c8677aa243ca8ac49d845df37b4"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_月度统计.csv",
+      "rows": 11,
+      "columns": 11,
+      "sha256": "3eb93affbcb3b35b185d9f160537e5ede82c370409628a7d91ab8b0fdd97e846"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_表A_逐10分钟.csv",
+      "rows": 48096,
+      "columns": 30,
+      "sha256": "efbf6e939038b11a3c849f0dbbda974c6eb874d26ac676ccb7449c90caaa7089"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_表B_逐日.csv",
+      "rows": 334,
+      "columns": 37,
+      "sha256": "1ac86b558a82613b049f6bea22e68845f028415ac62bf07c4fdf199f6e2b3b53"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_表C_承诺路径_自然日对齐.csv",
+      "rows": 48096,
+      "columns": 12,
+      "sha256": "25b409678e3618971ee0551527091f9d9bd66949432470e9282a68cfaf4d5844"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_计划日144段.csv",
+      "rows": 48096,
+      "columns": 10,
+      "sha256": "2c8028664040a7ab5c032dbeabfd25899a7e6bc680de1433d977ea2b5374d31a"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_预测与朴素基准对比.csv",
+      "rows": 4,
+      "columns": 5,
+      "sha256": "9b60c454ab8b292538dc827d1456fe79f90d0cce7f699c0af97fab0ee4a01448"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_预测误差分位带.csv",
+      "rows": 432,
+      "columns": 9,
+      "sha256": "a17e0c8b4044c3f2ac8eb70db12682130f714197b9a91b53dce5c0731c55de93"
+    },
+    {
+      "file": "表格\\Q4-3_exact-greedy_预测误差明细.csv",
+      "rows": 48096,
+      "columns": 7,
+      "sha256": "068cc06cf5d54dec9949e3cac73711d003008559dbc5a731ac7f419f651edecf"
+    },
+    {
+      "file": "表格\\Q4_电价热力图_365天_矩阵.csv",
+      "rows": 365,
+      "columns": 145,
+      "sha256": "1abd45254fc5a5ac5cb0c55519b24355b45ade057542c741fd7a8cb723dd5dcc"
+    },
+    {
+      "file": "表格\\Q4_电价热力图_365天_长表.csv",
+      "rows": 52560,
+      "columns": 6,
+      "sha256": "6f71c0ca9502fe871528496b2d22d7ec22423031070b9b394d3430d594c5e7ff"
+    },
+    {
+      "file": "表格\\自然年365天\\Q2_reserve-mpc_表A_逐10分钟.csv",
+      "rows": 52560,
+      "columns": 30,
+      "sha256": "1b4bf020d9f3c64f62354a486856dd9a7d8dbca703301bb950d7b6e2fbaf7f01"
+    },
+    {
+      "file": "表格\\自然年365天\\Q2_reserve-mpc_表B_逐日.csv",
+      "rows": 365,
+      "columns": 31,
+      "sha256": "d9abca979af2a5144d03cf6b556ee665c8b5d9788548a97e6f322ad9b81cbf6e"
+    },
+    {
+      "file": "表格\\自然年365天\\Q3_exact-greedy_表A_逐10分钟.csv",
+      "rows": 52560,
+      "columns": 30,
+      "sha256": "633ffd8768f187c19837f5f81ae57f4f72bc5eb7adfa2b61d7a2321bbbea8782"
+    },
+    {
+      "file": "表格\\自然年365天\\Q3_exact-greedy_表B_逐日.csv",
+      "rows": 365,
+      "columns": 37,
+      "sha256": "3c2fc53fb69fa9f46ab374b2accd86a54216e6854c171bcb41b87a29b7c62bc8"
+    },
+    {
+      "file": "表格\\自然年365天\\Q3_exact-greedy_表C_承诺路径_自然日对齐.csv",
+      "rows": 52560,
+      "columns": 12,
+      "sha256": "66a2ac46f7f55f4143ef220e582f00e96e2b28969546cf67b6531a2e6775efd4"
+    },
+    {
+      "file": "表格\\自然年365天\\Q4-2_reserve-mpc_表A_逐10分钟.csv",
+      "rows": 52560,
+      "columns": 30,
+      "sha256": "f3636cb726c0f739cb4e906f1869ae42593b9f1596b07a50afdf13920150cb04"
+    },
+    {
+      "file": "表格\\自然年365天\\Q4-2_reserve-mpc_表B_逐日.csv",
+      "rows": 365,
+      "columns": 31,
+      "sha256": "d561c0f7777453f803c8ad88f8d4b6a6bfcf18c1f24371d2570d4857d3c92756"
+    },
+    {
+      "file": "表格\\自然年365天\\Q4-3_exact-greedy_表A_逐10分钟.csv",
+      "rows": 52560,
+      "columns": 30,
+      "sha256": "f79f4e87b07cfb1069e783d07f9bb154c42dcddc3ddce388e56e0e3fac72cb2f"
+    },
+    {
+      "file": "表格\\自然年365天\\Q4-3_exact-greedy_表B_逐日.csv",
+      "rows": 365,
+      "columns": 37,
+      "sha256": "d02c7c3ffcf9119baa001a0e265c892bae5af5a23bd0cd4734a6db89a820bed8"
+    },
+    {
+      "file": "表格\\自然年365天\\Q4-3_exact-greedy_表C_承诺路径_自然日对齐.csv",
+      "rows": 52560,
+      "columns": 12,
+      "sha256": "6d78e586f8bc81226d13c27993b16e33b49afc52cef6e38a0008174db4c9d6b4"
+    },
+    {
+      "file": "表格\\自然年365天\\表G_最终档位指标汇总_自然年365天.csv",
+      "rows": 4,
+      "columns": 18,
+      "sha256": "2dd441b7b7fb9b3d865f2e996380676645a0de79672ac4e6b3d19a60e7077542"
+    },
+    {
+      "file": "表格\\表G_最终档位指标汇总_正式期334天.csv",
+      "rows": 4,
+      "columns": 18,
+      "sha256": "94fd49fb981112f714e24d2338c92e9ab717d113400d065ef334db13e515fd28"
+    },
+    {
+      "file": "表格\\表V1_物理可行性核对.csv",
+      "rows": 8,
+      "columns": 11,
+      "sha256": "cd493bdcfedbe654a8aa921d0c2ce66b887abd0907fb9181ac001596ec07f251"
+    },
+    {
+      "file": "表格\\附件1_固定电价144段.csv",
+      "rows": 144,
+      "columns": 3,
+      "sha256": "a0933a7e348f995f388872c9cf42db2dc1c4abf9999ac5fed3276744a104b67f"
+    }
+  ],
+  "expensive_experiments_executed": false
+}
