@@ -6,7 +6,7 @@
   "formal_period_cost_yuan": 13439044.36781069,
   "final_soc_kwh": 6000.0,
   "audit": {
-    "max_balance_err": 1.3642420526593924e-11,
+    "max_balance_err": 2.2737367544323206e-13,
     "max_purchase_identity_err": 2.2737367544323206e-13,
     "max_pv_identity_err": 2.2737367544323206e-13,
     "max_soc_recursion_err": 0.0,
@@ -16,6 +16,6 @@
     "negative_flow": 0,
     "slots": 52560
   },
-  "seconds": 84.5695595741272,
+  "seconds": 89.02107882499695,
   "source": "由 附件1—4 原样重算；不使用任何继承的结果缓存"
 }

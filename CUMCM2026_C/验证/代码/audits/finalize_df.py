@@ -44,7 +44,9 @@ def main():
             evidence['F'].append(dict(problem=p,period=label,C0_wanyuan=float(row.C0),
                 C1_wanyuan=float(row.C1),C2_wanyuan=float(row.C2),C3_wanyuan=float(row.C3),
                 monotone=bool(row.monotone_ladder)))
-    for path in sorted(RERUN.rglob('*_summary.json')):
+    # 只看 D/F 补算目录；同级的 hours_* 是发布时点消融，由 run_issue_hours_ablation.py 自行核验
+    for path in sorted(p for p in RERUN.rglob('*_summary.json')
+                       if not p.relative_to(RERUN).parts[0].startswith('hours_')):
         summary=json.loads(path.read_text(encoding='utf-8'))
         audit=summary['audit']
         assert summary['simulation_days']==365 and audit['slots']==52560

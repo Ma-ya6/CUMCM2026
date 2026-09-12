@@ -101,13 +101,13 @@
       "file": "图表\\数据表\\Q3_exact-greedy_典型周_调度.csv",
       "rows": 1008,
       "columns": 30,
-      "sha256": "5761b45fb7cbfb1bb274519b908a37a472f9b9a1506f8f53cc11c927f29c35f8"
+      "sha256": "45679e976c12f2c0388b27dbd1f5deba266abf34de290d318c0200cb7f7d248e"
     },
     {
       "file": "图表\\数据表\\Q3_exact-greedy_四个指定日期_调度.csv",
       "rows": 576,
       "columns": 30,
-      "sha256": "4c8d58c73459124698680bc3de3eb95c84aa1817e0c67de3bb1b3516fcd0e01b"
+      "sha256": "fa7208716f064d09c3ba3f158460376320d77436168f363f472665c1cb9172b1"
     },
     {
       "file": "图表\\数据表\\Q3_exact-greedy_指定日期_表1.csv",
@@ -143,19 +143,19 @@
       "file": "图表\\数据表\\Q3_exact-greedy_表A_逐10分钟.csv",
       "rows": 48096,
       "columns": 30,
-      "sha256": "38085d4f6077c3fc48b548d568cbd49a186ce6d90171c32837886748340295bc"
+      "sha256": "0961d011fbe243e2ff6b3b5b0a270e52ed64d75134e63e93cd6467469209226b"
     },
     {
       "file": "图表\\数据表\\Q3_exact-greedy_表B_逐日.csv",
       "rows": 334,
       "columns": 37,
-      "sha256": "653038615f3ed05f6e60ea0a3d5db518ba761e61e37bb27b420566f8a05c02e6"
+      "sha256": "64750baa4cd9ac8fc3f3738fc249c02827ed24757fbd478b5efa24fb578172ae"
     },
     {
       "file": "图表\\数据表\\Q3_exact-greedy_表C_承诺路径_自然日对齐.csv",
       "rows": 48096,
       "columns": 12,
-      "sha256": "e276b24e24a41b9bb82cdfaf0fae84548b72a331c3a916b8a98cad64cbc4a636"
+      "sha256": "ffc96c7252ff74421151f9f09fd6c67780f2c2e5e6a76203a10b439186f615e1"
     },
     {
       "file": "图表\\数据表\\Q3_exact-greedy_表D_分位数扫描_正式期334天.csv",
@@ -167,7 +167,7 @@
       "file": "图表\\数据表\\Q3_exact-greedy_计划日144段.csv",
       "rows": 48096,
       "columns": 10,
-      "sha256": "ed1920a9f3ac8c8a6213423d2d385f6c47c21fa700b71e780e15ed2ec2a398c2"
+      "sha256": "8749a637c0bcc018d94dfb96a248db50a63d7efb5d6b3f11b12826aaeb290b21"
     },
     {
       "file": "图表\\数据表\\Q3_exact-greedy_预测与朴素基准对比.csv",
@@ -287,13 +287,13 @@
       "file": "图表\\数据表\\Q4-3_exact-greedy_典型周_调度.csv",
       "rows": 1008,
       "columns": 30,
-      "sha256": "a74ed9cf358a76d590c82fd5b587291bdfe873e44a0d917595c040fb9294cc18"
+      "sha256": "5c0de5240163507f9b2823ad2590f80bd11d9f6f5e3fe04ea9aa1e8651cd4fe0"
     },
     {
       "file": "图表\\数据表\\Q4-3_exact-greedy_四个指定日期_调度.csv",
       "rows": 576,
       "columns": 30,
-      "sha256": "39617cc8e1c0f3d96781da80a4633065b0ed87dcbb46f12e45f3239dd98bc770"
+      "sha256": "b6aac158bd00e0cb3b8290ea6034dcaaf21616d4238f60e23a0f1febcbbbb091"
     },
     {
       "file": "图表\\数据表\\Q4-3_exact-greedy_指定日期_表1.csv",
@@ -329,19 +329,19 @@
       "file": "图表\\数据表\\Q4-3_exact-greedy_表A_逐10分钟.csv",
       "rows": 48096,
       "columns": 30,
-      "sha256": "efbf6e939038b11a3c849f0dbbda974c6eb874d26ac676ccb7449c90caaa7089"
+      "sha256": "12c4e633b129c74e33e5cfd16c69a180efccc72859872fdfaddf40f43cfe584a"
     },
     {
       "file": "图表\\数据表\\Q4-3_exact-greedy_表B_逐日.csv",
       "rows": 334,
       "columns": 37,
-      "sha256": "1ac86b558a82613b049f6bea22e68845f028415ac62bf07c4fdf199f6e2b3b53"
+      "sha256": "a01d58f7e5846400637dd303a767b103e556c6ccbad7cdafcf3d8bdb73f9b3ab"
     },
     {
       "file": "图表\\数据表\\Q4-3_exact-greedy_表C_承诺路径_自然日对齐.csv",
       "rows": 48096,
       "columns": 12,
-      "sha256": "25b409678e3618971ee0551527091f9d9bd66949432470e9282a68cfaf4d5844"
+      "sha256": "e152960e9c1de67d5e9ad9e01378b755380bd361a2443439e52c275c0659f5f4"
     },
     {
       "file": "图表\\数据表\\Q4-3_exact-greedy_表D_分位数扫描_正式期334天.csv",
@@ -353,7 +353,7 @@
       "file": "图表\\数据表\\Q4-3_exact-greedy_计划日144段.csv",
       "rows": 48096,
       "columns": 10,
-      "sha256": "2c8028664040a7ab5c032dbeabfd25899a7e6bc680de1433d977ea2b5374d31a"
+      "sha256": "ce5f03e6982e025160346f88ab76c7cf455a90bd50927d5724aa969ca4add59d"
     },
     {
       "file": "图表\\数据表\\Q4-3_exact-greedy_预测与朴素基准对比.csv",
@@ -407,19 +407,19 @@
       "file": "图表\\数据表\\自然年365天\\Q3_exact-greedy_表A_逐10分钟.csv",
       "rows": 52560,
       "columns": 30,
-      "sha256": "633ffd8768f187c19837f5f81ae57f4f72bc5eb7adfa2b61d7a2321bbbea8782"
+      "sha256": "ae4824e7d3b1ff11d062c9e4454ceee6a3f78c3253bec3d511a6df926992a6c5"
     },
     {
       "file": "图表\\数据表\\自然年365天\\Q3_exact-greedy_表B_逐日.csv",
       "rows": 365,
       "columns": 37,
-      "sha256": "3c2fc53fb69fa9f46ab374b2accd86a54216e6854c171bcb41b87a29b7c62bc8"
+      "sha256": "1166ca6d1baf5cc020268760193b1cc3a6f4657ba44e8bae84ed985ca20460b1"
     },
     {
       "file": "图表\\数据表\\自然年365天\\Q3_exact-greedy_表C_承诺路径_自然日对齐.csv",
       "rows": 52560,
       "columns": 12,
-      "sha256": "66a2ac46f7f55f4143ef220e582f00e96e2b28969546cf67b6531a2e6775efd4"
+      "sha256": "8a688b7fc9b1dee09fe35b9117caf04c691150cf4c2cb12592029bae10502884"
     },
     {
       "file": "图表\\数据表\\自然年365天\\Q3_exact-greedy_表D_分位数扫描_自然年365天.csv",
@@ -449,19 +449,19 @@
       "file": "图表\\数据表\\自然年365天\\Q4-3_exact-greedy_表A_逐10分钟.csv",
       "rows": 52560,
       "columns": 30,
-      "sha256": "f79f4e87b07cfb1069e783d07f9bb154c42dcddc3ddce388e56e0e3fac72cb2f"
+      "sha256": "e2e2a5768ef740130bc8a82a3c3575ed35635d0b11ea63932a46ccb28c97dbb1"
     },
     {
       "file": "图表\\数据表\\自然年365天\\Q4-3_exact-greedy_表B_逐日.csv",
       "rows": 365,
       "columns": 37,
-      "sha256": "d02c7c3ffcf9119baa001a0e265c892bae5af5a23bd0cd4734a6db89a820bed8"
+      "sha256": "ff3347731729d3e96706dab6681ba2d5c8287a798d0530452f70b3b9ad95181c"
     },
     {
       "file": "图表\\数据表\\自然年365天\\Q4-3_exact-greedy_表C_承诺路径_自然日对齐.csv",
       "rows": 52560,
       "columns": 12,
-      "sha256": "6d78e586f8bc81226d13c27993b16e33b49afc52cef6e38a0008174db4c9d6b4"
+      "sha256": "0d720a62bd1cfbaf381e1c5ded4096cd5fefa7c218658e66b109cc3701fa98bd"
     },
     {
       "file": "图表\\数据表\\自然年365天\\Q4-3_exact-greedy_表D_分位数扫描_自然年365天.csv",
@@ -494,10 +494,16 @@
       "sha256": "94fd49fb981112f714e24d2338c92e9ab717d113400d065ef334db13e515fd28"
     },
     {
+      "file": "图表\\数据表\\表H_发布时点消融_正式期334天.csv",
+      "rows": 16,
+      "columns": 11,
+      "sha256": "1c777380906592ea7da42f6100773b93319783c5356b598e60599abd0fd85fc3"
+    },
+    {
       "file": "图表\\数据表\\表V1_物理可行性核对.csv",
       "rows": 8,
       "columns": 11,
-      "sha256": "cd493bdcfedbe654a8aa921d0c2ce66b887abd0907fb9181ac001596ec07f251"
+      "sha256": "6fd65ba79ea2550a338379cf29abe1ab6acc91d0044e818339c52c16ffa270a1"
     },
     {
       "file": "图表\\数据表\\附件1_固定电价144段.csv",

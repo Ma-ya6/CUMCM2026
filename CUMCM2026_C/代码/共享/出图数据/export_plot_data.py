@@ -328,6 +328,9 @@ def main():
         assert path.read_bytes().startswith(b"\xef\xbb\xbf")
         checks.append(dict(file=str(path.relative_to(PROJECT)),rows=len(data),columns=len(data.columns),
                            sha256=hashlib.sha256(path.read_bytes()).hexdigest()))
+    if not any("表H" in c["file"] for c in checks):
+        print("提示：缺少 表H_发布时点消融_正式期334天.csv，本次文件清单不含发布时点消融表。"
+              "补跑：python 代码/共享/出图数据/run_issue_hours_ablation.py（约 25 分钟，可断点续算）。")
     (HERE/"数据核验与文件清单.json").write_text(json.dumps(dict(source_results="结果/问题2、问题3、问题4/问题4-2、问题4/问题4-3",files=checks,
                   expensive_experiments_executed=False),indent=2,ensure_ascii=False),encoding="utf-8")
     print(f"Export complete: {len(checks)} CSV tables. No annual rerun or sensitivity scan performed.")

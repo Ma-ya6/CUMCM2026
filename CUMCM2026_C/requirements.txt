@@ -1,11 +1,12 @@
 # CUMCM2026 C 题 · 微网购电与储能调度优化
 # 安装：pip install -r requirements.txt
-# 建议 Python 3.10 及以上。
+# Python 3.10；下列版本为本仓库全部结果与图表实际使用的版本，固定以避免求解器与
+# 数值库升级改变分支定界路径或默认行为。
 
-numpy>=1.24
-pandas>=2.0
-scipy>=1.10
-scikit-learn>=1.3
-lightgbm>=4.0
-matplotlib>=3.7
-openpyxl>=3.1
+numpy==2.2.6
+pandas==2.3.3
+scipy==1.15.3
+scikit-learn==1.7.2
+lightgbm==4.6.0
+matplotlib==3.10.8
+openpyxl==3.1.5

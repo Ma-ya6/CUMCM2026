@@ -42,11 +42,27 @@ BREACH_RATE = 0.5
 OVERBUY_RATE = 1.5
 BIG_M = 1.0e5          # 精确链式结算 MILP 的松弛常数（远大于单时段承诺量的量级）
 ISSUE_HOURS = (0, 6, 12, 18)
+PURCHASE_TOL = 1.0e-6  # kWh，购电承诺的下界舍入容差
 
 
 def end_water_value(price: np.ndarray) -> float:
     """日末储电的水值 λ = η_d × 窗口平均电价（与上游逐位一致）。"""
     return float(ETA_D * np.mean(price))
+
+
+def clip_purchase(x: np.ndarray) -> np.ndarray:
+    """求解器出口：容差内的负购电量归零，明显负值仍报错。
+
+    MILP/LP 的购电变量下界为 0，但分支定界与单纯形会返回量级 $10^{-7}$ kWh
+    的"负零"。这类值若原样传给执行器，会被物理审计的非负阈值 $-10^{-9}$ 捕获
+    而中止整次运行。此处只对 $|x|<$ ``PURCHASE_TOL`` 的下界舍入归零；超过容差
+    的负值属于模型或求解异常，仍然抛出。
+    """
+    if x.size and float(x.min()) < -PURCHASE_TOL:
+        raise RuntimeError(
+            f"购电承诺出现明显负值 {float(x.min()):.6e} kWh，"
+            f"超出容差 {PURCHASE_TOL:g} kWh")
+    return np.maximum(x, 0.0)
 
 
 # ==========================================================================
@@ -275,7 +291,7 @@ def stage_lp(
                       integrality=integ, bounds=Bounds(lo_b, hi_b))
         if not result.success:
             raise RuntimeError(f"单阶段 MILP 失败（S={s_count}, n={n}）：{result.message}")
-        return result.x[i_x : i_x + n]
+        return clip_purchase(result.x[i_x : i_x + n])
 
     result = linprog(
         obj, A_eq=np.asarray(a_eq), b_eq=np.asarray(b_eq),
@@ -285,7 +301,7 @@ def stage_lp(
     )
     if not result.success:
         raise RuntimeError(f"单阶段 LP 失败（S={s_count}, n={n}）：{result.message}")
-    return result.x[i_x : i_x + n]
+    return clip_purchase(result.x[i_x : i_x + n])
 
 
 def causal_cumulative_reserve(
