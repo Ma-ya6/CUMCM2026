@@ -1,0 +1,8 @@
+{
+  "year_end_reachable_cases": 9,
+  "Q2": "carry, SOC continuity, plan-to-physical mapping, immutable revision prefixes, fee identity passed",
+  "Q3": "carry, SOC continuity, plan-to-physical mapping, immutable revision prefixes, fee identity passed",
+  "Q4-2": "carry, SOC continuity, plan-to-physical mapping, immutable revision prefixes, fee identity passed",
+  "Q4-3": "carry, SOC continuity, plan-to-physical mapping, immutable revision prefixes, fee identity passed",
+  "intraday_future_actual_invariance": "passed"
+}

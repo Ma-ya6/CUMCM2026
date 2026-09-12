@@ -1,0 +1,14 @@
+{
+  "mae_yuan_per_kwh": 0.03994072946408606,
+  "rmse_yuan_per_kwh": 0.05402700745893756,
+  "nmae": 0.052725120093578715,
+  "bias_yuan_per_kwh": 0.0012823787129868434,
+  "mean_actual_yuan_per_kwh": 0.7575275199600799,
+  "formal_start": "2025-02-01",
+  "n_days_total": 365,
+  "n_days_formal": 334,
+  "cold_start": "第0天（2025-01-01）用附件1的单条电价曲线冷启动",
+  "namespace": "问题4/重算问题2 的 price_forecast.generate_causal_price_forecast",
+  "mean_actual_formal_yuan_per_kwh": 0.7575275199600799,
+  "mean_forecast_formal_yuan_per_kwh": 0.7588098986730667
+}

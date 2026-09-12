@@ -1,0 +1,11 @@
+{
+  "price_channel": "cache/price_channel.npz（附件4 实际电价结算 + 因果预测电价入 LP）",
+  "m9_frozen_cost_yuan": 14138458.974241704,
+  "M9_reproduces_frozen": true,
+  "M9_cost_yuan": 14138458.974241704,
+  "M2_cost_yuan": 14502766.596286405,
+  "mainline_cost_yuan": 14158125.73330921,
+  "argmin_dev_period": "M10",
+  "argmin_holdout_period": "M10",
+  "argmin_full_period": "M10"
+}

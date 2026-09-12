@@ -1,0 +1,5 @@
+﻿问题,C0,C1,C2,C3,unit,period,C0_initial_soc_kwh,C0_type,decision_framework_gap_wanyuan,load_pv_forecast_gap_wanyuan,price_forecast_gap_wanyuan,monotone_ladder,interpretation
+Q2,1375.35477379,1386.56013438,1594.8651291,1594.8651291,万元,calendar_365_days,6000,perfect_information_physical_LP_relaxation,11.2053605821,208.30499472,0,True,signed heuristic gaps; NOT independently identified causal contributions
+Q3,1375.35477379,1384.05923389,1525.11171659,1525.11171659,万元,calendar_365_days,6000,perfect_information_physical_LP_relaxation,8.70446009135,141.0524827,0,True,signed heuristic gaps; NOT independently identified causal contributions
+Q4-2,1449.69711659,1471.04071793,1689.68482867,1697.55251456,万元,calendar_365_days,6000,perfect_information_physical_LP_relaxation,21.3436013494,218.644110736,7.86768588598,True,signed heuristic gaps; NOT independently identified causal contributions
+Q4-3,1449.69711659,1469.06892389,1613.21739358,1621.83109113,万元,calendar_365_days,6000,perfect_information_physical_LP_relaxation,19.371807307,144.148469688,8.61369755308,True,signed heuristic gaps; NOT independently identified causal contributions

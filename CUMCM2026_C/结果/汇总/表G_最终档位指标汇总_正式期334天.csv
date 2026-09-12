@@ -1,0 +1,5 @@
+﻿问题,档位,period,total_cost_yuan,校正后总费用,emergency_kwh,days_with_emergency,emergency_ratio_of_load,unused_plan_kwh,curtailed_pv_kwh,final_soc_kwh,daily_cost_cvar95_yuan,reserve_mean_kwh,adjusted_kwh,emergency_slots,days,correction_applied_yuan,correction_note
+Q2,reserve-mpc,formal_334_days,13864639.3648,13864639.3648,136727.006914,139,0.00369451775939,352014.070688,1309470.94394,6000,76068.2191875,2299.55406464,0,1515,334,0,actual terminal SOC=6000; no residual-value adjustment
+Q3,exact-greedy,formal_334_days,13439044.3678,13439044.3678,21541.6346994,141,0.000582079237742,268000.684713,1189707.64717,6000,64940.3270753,1500.87622984,1288029.77237,487,334,0,actual terminal SOC=6000; no residual-value adjustment
+Q4-2,reserve-mpc,formal_334_days,14595194.9411,14595194.9411,135858.267498,142,0.00367104344167,342813.244953,1317731.36158,6000,86786.5400034,2299.55406464,0,1507,334,0,actual terminal SOC=6000; no residual-value adjustment
+Q4-3,exact-greedy,formal_334_days,14158125.7333,14158125.7333,20948.4925527,138,0.000566051868721,255123.244409,1201052.17711,6000,76502.2580919,1500.87622984,1245494.53555,426,334,0,actual terminal SOC=6000; no residual-value adjustment
