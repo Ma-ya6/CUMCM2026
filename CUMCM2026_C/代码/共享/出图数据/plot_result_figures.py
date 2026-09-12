@@ -475,12 +475,12 @@ def x1(four):  # noqa: ARG001
     """覆盖率校准。检查名义分位数 q 是否兑现为实测覆盖率。"""
     fig, ax = plt.subplots(figsize=(7.6, 5.6))
     ax.plot([0.45, 0.95], [0.45, 0.95], color=C_GUIDE, linewidth=1.2,
-            linestyle="--", label="名义 = 实测")
+            linestyle="--", label="风险 = 实测")
     for p in ("Q2", "Q3", "Q4-2", "Q4-3"):
         s = scan(p)
         ax.plot(s.q, s.coverage, color=COLOR[p], marker="o", markersize=4.5,
                 linewidth=1.6, label=LABEL[p])
-    ax.set_xlabel("名义分位数 q", color=C_TEXT)
+    ax.set_xlabel("风险分位数 q", color=C_TEXT)
     ax.set_ylabel("实测覆盖率", color=C_TEXT)
     ax.legend(loc="upper left", framealpha=0.9)
     style_frame_grid(ax)
@@ -522,7 +522,7 @@ def x3(four):  # noqa: ARG001
     ax.axvline(0.80, color=C_GUIDE, linewidth=1.1, linestyle="--")
     ax.text(0.803, ax.get_ylim()[0], " 基线 q=0.80", fontsize=9, color=C_GUIDE,
             va="bottom")
-    ax.set_xlabel("名义分位数 q", color=C_TEXT)
+    ax.set_xlabel("风险分位数 q", color=C_TEXT)
     ax.set_ylabel("正式期总费用 / 万元", color=C_TEXT)
     ax.legend(loc="upper right", framealpha=0.9)
     style_frame_grid(ax)
@@ -536,7 +536,7 @@ def x4(four):  # noqa: ARG001
         s = scan(p)
         ax.plot(s.q, s.emergency_kwh, color=COLOR[p], marker="o", markersize=4.5,
                 linewidth=1.6, label=LABEL[p])
-    ax.set_xlabel("名义分位数 q", color=C_TEXT)
+    ax.set_xlabel("风险分位数 q", color=C_TEXT)
     ax.set_ylabel("紧急购电量 / kWh", color=C_TEXT)
     axr = ax.twinx()
     for p in ("Q2", "Q3", "Q4-2", "Q4-3"):
