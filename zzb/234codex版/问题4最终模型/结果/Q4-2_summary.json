@@ -1,0 +1,21 @@
+{
+  "problem": "Q4-2",
+  "simulation_days": 365,
+  "formal_days": 334,
+  "calendar_year_cost_yuan": 16975525.14556457,
+  "formal_period_cost_yuan": 14595194.941129487,
+  "final_soc_kwh": 6000.0,
+  "audit": {
+    "max_balance_err": 2.2737367544323206e-13,
+    "max_purchase_identity_err": 2.2737367544323206e-13,
+    "max_pv_identity_err": 2.2737367544323206e-13,
+    "max_soc_recursion_err": 0.0,
+    "soc_violations": 0,
+    "power_violations": 0,
+    "simultaneous_charge_discharge": 0,
+    "negative_flow": 0,
+    "slots": 52560
+  },
+  "seconds": 58.951953649520874,
+  "source": "original attachments rebuilt in 234codex版; no inherited result cache"
+}

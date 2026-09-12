@@ -1,0 +1,151 @@
+{
+  "baseline_checks": {
+    "Q2": {
+      "slots": 52560,
+      "days": 365,
+      "mapping_max_error": 2.2737367544323206e-13,
+      "daily_loop_equal_days": 11,
+      "min_chain_cost_above_final_purchase_yuan": 0.0,
+      "passed": true
+    },
+    "Q3": {
+      "slots": 52560,
+      "days": 365,
+      "mapping_max_error": 2.2737367544323206e-13,
+      "daily_loop_equal_days": 11,
+      "min_chain_cost_above_final_purchase_yuan": 0.0,
+      "passed": true
+    },
+    "Q4-2": {
+      "slots": 52560,
+      "days": 365,
+      "mapping_max_error": 2.2737367544323206e-13,
+      "daily_loop_equal_days": 10,
+      "min_chain_cost_above_final_purchase_yuan": 0.0,
+      "passed": true
+    },
+    "Q4-3": {
+      "slots": 52560,
+      "days": 365,
+      "mapping_max_error": 2.2737367544323206e-13,
+      "daily_loop_equal_days": 14,
+      "min_chain_cost_above_final_purchase_yuan": 0.0,
+      "passed": true
+    }
+  },
+  "terminal": [
+    {
+      "problem": "Q2",
+      "last_day_total_cost_yuan": 99845.16685901103,
+      "last_day_emergency_cost_yuan": 40194.43069677091,
+      "min_hindsight_emergency_cost_yuan": 1724.1317292093377,
+      "hindsight_emergency_cost_gap_yuan": 38470.298967561575,
+      "emergency_for_charge_kwh": 38.26543082757862,
+      "emergency_for_charge_cost_yuan": 81.81149110936478,
+      "emergency_while_no_load_shortage_slots": 0,
+      "start_soc_kwh": 9726.472330197035,
+      "end_soc_kwh": 6000.0
+    },
+    {
+      "problem": "Q3",
+      "last_day_total_cost_yuan": 86073.2760447726,
+      "last_day_emergency_cost_yuan": 10751.96557707939,
+      "min_hindsight_emergency_cost_yuan": 312.82510889273203,
+      "hindsight_emergency_cost_gap_yuan": 10439.140468186659,
+      "emergency_for_charge_kwh": 7.673861546209083e-13,
+      "emergency_for_charge_cost_yuan": 3.332022657787093e-12,
+      "emergency_while_no_load_shortage_slots": 0,
+      "start_soc_kwh": 9616.45027962996,
+      "end_soc_kwh": 6000.0
+    },
+    {
+      "problem": "Q4-2",
+      "last_day_total_cost_yuan": 118058.15706888208,
+      "last_day_emergency_cost_yuan": 48511.15947907652,
+      "min_hindsight_emergency_cost_yuan": 2804.890521076417,
+      "hindsight_emergency_cost_gap_yuan": 45706.2689580001,
+      "emergency_for_charge_kwh": 38.265430827578896,
+      "emergency_for_charge_cost_yuan": 88.39314521171075,
+      "emergency_while_no_load_shortage_slots": 0,
+      "start_soc_kwh": 9570.248528197184,
+      "end_soc_kwh": 6000.0
+    },
+    {
+      "problem": "Q4-3",
+      "last_day_total_cost_yuan": 111702.61372721508,
+      "last_day_emergency_cost_yuan": 23203.112707517168,
+      "min_hindsight_emergency_cost_yuan": 394.22228552733765,
+      "hindsight_emergency_cost_gap_yuan": 22808.89042198983,
+      "emergency_for_charge_kwh": 9.059419880941278e-13,
+      "emergency_for_charge_cost_yuan": 5.137753333883667e-12,
+      "emergency_while_no_load_shortage_slots": 0,
+      "start_soc_kwh": 9615.426905034696,
+      "end_soc_kwh": 6000.0
+    }
+  ],
+  "historical_night_mask_false_zero_slots": 41,
+  "historical_night_mask_false_zero_actual_energy_kwh": 8.500466666666666,
+  "exact_increment_cases": [
+    {
+      "start_soc": 6000,
+      "load_kwh": 150,
+      "reference_kwh": 50,
+      "historical_min_kwh": 20,
+      "solver_purchase_kwh": 50.0,
+      "independent_objective_residual": 0.0
+    },
+    {
+      "start_soc": 6000,
+      "load_kwh": 150,
+      "reference_kwh": 600,
+      "historical_min_kwh": 100,
+      "solver_purchase_kwh": 600.0,
+      "independent_objective_residual": 0.0
+    },
+    {
+      "start_soc": 1200,
+      "load_kwh": 100,
+      "reference_kwh": 200,
+      "historical_min_kwh": 50,
+      "solver_purchase_kwh": 200.0,
+      "independent_objective_residual": 0.0
+    },
+    {
+      "start_soc": 10800,
+      "load_kwh": 300,
+      "reference_kwh": 200,
+      "historical_min_kwh": 100,
+      "solver_purchase_kwh": 200.0,
+      "independent_objective_residual": 0.0
+    }
+  ],
+  "causality_diagnostics": {
+    "default_backend_matches_primary_3_days": true,
+    "future_actual_price_not_used_for_decisions_3_days": true,
+    "intraday_forecasts_invariant_to_future_actuals_all_4_issues": true
+  },
+  "predictor_prefix_diagnostics": {
+    "load": {
+      "prefix_through_decision_day60_max_difference": 0.0,
+      "rebuilt365_days_vs_frozen_cache_max_difference": 0.0,
+      "identical_rebuild_max_difference": 0.0,
+      "cache_max_difference_at_day_slot0": [
+        0,
+        0
+      ],
+      "future_perturbation_pass": true,
+      "cache_match": true
+    },
+    "pv": {
+      "prefix_through_decision_day60_max_difference": 0.0,
+      "rebuilt365_days_vs_frozen_cache_max_difference": 0.0,
+      "identical_rebuild_max_difference": 0.0,
+      "cache_max_difference_at_day_slot0": [
+        0,
+        0
+      ],
+      "future_perturbation_pass": true,
+      "cache_match": true
+    }
+  }
+}

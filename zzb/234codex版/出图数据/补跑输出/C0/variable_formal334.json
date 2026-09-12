@@ -1,0 +1,9 @@
+{
+  "cost_yuan": 12781359.687840726,
+  "initial_soc_kwh": 10800.0,
+  "terminal_soc_kwh": 6000.0,
+  "max_balance_residual": 1.1368683772161603e-13,
+  "bound_type": "perfect_information_physical_LP_relaxation",
+  "formal_initial_state_relaxed": true,
+  "simultaneous_charge_discharge_slots": 0
+}

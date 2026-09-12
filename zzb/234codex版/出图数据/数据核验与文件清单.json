@@ -62,6 +62,12 @@
       "sha256": "75c5503ad524fbcbff000dd14994caee204856981dc82ab53e56ba764b5be12c"
     },
     {
+      "file": "表格\\Q2_reserve-mpc_表D_分位数扫描_正式期334天.csv",
+      "rows": 9,
+      "columns": 15,
+      "sha256": "36551a1388ce15b2f72c42bc66aa5570945a66b69c54fbca2e5f44b62fa6a311"
+    },
+    {
       "file": "表格\\Q2_reserve-mpc_计划日144段.csv",
       "rows": 48096,
       "columns": 10,
@@ -152,6 +158,12 @@
       "sha256": "e276b24e24a41b9bb82cdfaf0fae84548b72a331c3a916b8a98cad64cbc4a636"
     },
     {
+      "file": "表格\\Q3_exact-greedy_表D_分位数扫描_正式期334天.csv",
+      "rows": 9,
+      "columns": 18,
+      "sha256": "ad1078681bc472aa7a07851c26eeee79718a9a72414366b406840bf65f508c70"
+    },
+    {
       "file": "表格\\Q3_exact-greedy_计划日144段.csv",
       "rows": 48096,
       "columns": 10,
@@ -234,6 +246,12 @@
       "rows": 334,
       "columns": 31,
       "sha256": "7708946e8bdda161f7677b6b2270e78f67348b74152cade1a31ff5cc5decd8d8"
+    },
+    {
+      "file": "表格\\Q4-2_reserve-mpc_表D_分位数扫描_正式期334天.csv",
+      "rows": 9,
+      "columns": 15,
+      "sha256": "ef44b8ac9726210938f136184a87b2900a8ff04fb1f67bebfda6f827bcd45d2a"
     },
     {
       "file": "表格\\Q4-2_reserve-mpc_计划日144段.csv",
@@ -326,6 +344,12 @@
       "sha256": "25b409678e3618971ee0551527091f9d9bd66949432470e9282a68cfaf4d5844"
     },
     {
+      "file": "表格\\Q4-3_exact-greedy_表D_分位数扫描_正式期334天.csv",
+      "rows": 9,
+      "columns": 18,
+      "sha256": "35cd54d5d6bd55f0eaa36c1df18e2a44e01f2fcfe3b1ed03da6f7e2e4341f054"
+    },
+    {
       "file": "表格\\Q4-3_exact-greedy_计划日144段.csv",
       "rows": 48096,
       "columns": 10,
@@ -374,6 +398,12 @@
       "sha256": "d9abca979af2a5144d03cf6b556ee665c8b5d9788548a97e6f322ad9b81cbf6e"
     },
     {
+      "file": "表格\\自然年365天\\Q2_reserve-mpc_表D_分位数扫描_自然年365天.csv",
+      "rows": 9,
+      "columns": 15,
+      "sha256": "19f3a1e6bc67a954a151e1528b0fa82eda95d54d7fea072d9083bdc94d1551e2"
+    },
+    {
       "file": "表格\\自然年365天\\Q3_exact-greedy_表A_逐10分钟.csv",
       "rows": 52560,
       "columns": 30,
@@ -392,6 +422,12 @@
       "sha256": "66a2ac46f7f55f4143ef220e582f00e96e2b28969546cf67b6531a2e6775efd4"
     },
     {
+      "file": "表格\\自然年365天\\Q3_exact-greedy_表D_分位数扫描_自然年365天.csv",
+      "rows": 9,
+      "columns": 18,
+      "sha256": "002a67b8946e1e257452cec2cab99b3132d28f05c050d9c9791bc68a354c1835"
+    },
+    {
       "file": "表格\\自然年365天\\Q4-2_reserve-mpc_表A_逐10分钟.csv",
       "rows": 52560,
       "columns": 30,
@@ -402,6 +438,12 @@
       "rows": 365,
       "columns": 31,
       "sha256": "d561c0f7777453f803c8ad88f8d4b6a6bfcf18c1f24371d2570d4857d3c92756"
+    },
+    {
+      "file": "表格\\自然年365天\\Q4-2_reserve-mpc_表D_分位数扫描_自然年365天.csv",
+      "rows": 9,
+      "columns": 15,
+      "sha256": "10a2aa0b11b268282972b3c67a719101a4ba5717b5789b9a0076e9842fd201a2"
     },
     {
       "file": "表格\\自然年365天\\Q4-3_exact-greedy_表A_逐10分钟.csv",
@@ -422,10 +464,28 @@
       "sha256": "6d78e586f8bc81226d13c27993b16e33b49afc52cef6e38a0008174db4c9d6b4"
     },
     {
+      "file": "表格\\自然年365天\\Q4-3_exact-greedy_表D_分位数扫描_自然年365天.csv",
+      "rows": 9,
+      "columns": 18,
+      "sha256": "fd35a60f92e990d4aaad997a9f1b98592e32730ecbf46c7324df3cad1549e590"
+    },
+    {
+      "file": "表格\\自然年365天\\表F_全知下界阶梯_自然年365天.csv",
+      "rows": 4,
+      "columns": 14,
+      "sha256": "b9a70baaea4942d6e4cbf82752f2e2d21af496afb181246efaaeda907c35b1c2"
+    },
+    {
       "file": "表格\\自然年365天\\表G_最终档位指标汇总_自然年365天.csv",
       "rows": 4,
       "columns": 18,
       "sha256": "2dd441b7b7fb9b3d865f2e996380676645a0de79672ac4e6b3d19a60e7077542"
+    },
+    {
+      "file": "表格\\表F_全知下界阶梯_正式期334天.csv",
+      "rows": 4,
+      "columns": 14,
+      "sha256": "e0d8c6d631deb2b6b391d706ab35e22b19c7012a54647a2313fc171e00b7b0a0"
     },
     {
       "file": "表格\\表G_最终档位指标汇总_正式期334天.csv",
@@ -446,5 +506,7 @@
       "sha256": "a0933a7e348f995f388872c9cf42db2dc1c4abf9999ac5fed3276744a104b67f"
     }
   ],
-  "expensive_experiments_executed": false
+  "expensive_experiments_executed": true,
+  "expensive_experiments_status": "D: four problems x nine q; F: four problems; both 334/365-day tables complete",
+  "experiment_completion_evidence": "../audits/DF完成核验.json"
 }

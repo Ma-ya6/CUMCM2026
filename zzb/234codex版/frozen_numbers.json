@@ -1,0 +1,86 @@
+[
+  {
+    "problem": "Q2",
+    "simulation_days": 365,
+    "formal_days": 334,
+    "calendar_year_cost_yuan": 15948651.29096032,
+    "formal_period_cost_yuan": 13864639.364845123,
+    "final_soc_kwh": 6000.0,
+    "audit": {
+      "max_balance_err": 2.2737367544323206e-13,
+      "max_purchase_identity_err": 0.0,
+      "max_pv_identity_err": 2.2737367544323206e-13,
+      "max_soc_recursion_err": 0.0,
+      "soc_violations": 0,
+      "power_violations": 0,
+      "simultaneous_charge_discharge": 0,
+      "negative_flow": 0,
+      "slots": 52560
+    },
+    "seconds": 57.20902347564697,
+    "source": "original attachments rebuilt in 234codex版; no inherited result cache"
+  },
+  {
+    "problem": "Q3",
+    "simulation_days": 365,
+    "formal_days": 334,
+    "calendar_year_cost_yuan": 15251117.16585094,
+    "formal_period_cost_yuan": 13439044.36781069,
+    "final_soc_kwh": 6000.0,
+    "audit": {
+      "max_balance_err": 1.3642420526593924e-11,
+      "max_purchase_identity_err": 2.2737367544323206e-13,
+      "max_pv_identity_err": 2.2737367544323206e-13,
+      "max_soc_recursion_err": 0.0,
+      "soc_violations": 0,
+      "power_violations": 0,
+      "simultaneous_charge_discharge": 0,
+      "negative_flow": 0,
+      "slots": 52560
+    },
+    "seconds": 99.51810359954834,
+    "source": "original attachments rebuilt in 234codex版; no inherited result cache"
+  },
+  {
+    "problem": "Q4-2",
+    "simulation_days": 365,
+    "formal_days": 334,
+    "calendar_year_cost_yuan": 16975525.14556457,
+    "formal_period_cost_yuan": 14595194.941129487,
+    "final_soc_kwh": 6000.0,
+    "audit": {
+      "max_balance_err": 2.2737367544323206e-13,
+      "max_purchase_identity_err": 2.2737367544323206e-13,
+      "max_pv_identity_err": 2.2737367544323206e-13,
+      "max_soc_recursion_err": 0.0,
+      "soc_violations": 0,
+      "power_violations": 0,
+      "simultaneous_charge_discharge": 0,
+      "negative_flow": 0,
+      "slots": 52560
+    },
+    "seconds": 58.951953649520874,
+    "source": "original attachments rebuilt in 234codex版; no inherited result cache"
+  },
+  {
+    "problem": "Q4-3",
+    "simulation_days": 365,
+    "formal_days": 334,
+    "calendar_year_cost_yuan": 16218310.911334753,
+    "formal_period_cost_yuan": 14158125.73330921,
+    "final_soc_kwh": 6000.0,
+    "audit": {
+      "max_balance_err": 7.73070496506989e-12,
+      "max_purchase_identity_err": 2.2737367544323206e-13,
+      "max_pv_identity_err": 2.2737367544323206e-13,
+      "max_soc_recursion_err": 0.0,
+      "soc_violations": 0,
+      "power_violations": 0,
+      "simultaneous_charge_discharge": 0,
+      "negative_flow": 0,
+      "slots": 52560
+    },
+    "seconds": 92.0443606376648,
+    "source": "original attachments rebuilt in 234codex版; no inherited result cache"
+  }
+]

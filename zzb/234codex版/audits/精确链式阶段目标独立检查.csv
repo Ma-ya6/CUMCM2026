@@ -1,0 +1,5 @@
+﻿start_soc,load_kwh,reference_kwh,historical_min_kwh,solver_purchase_kwh,independent_objective_residual
+6000,150,50,20,50.0,0.0
+6000,150,600,100,600.0,0.0
+1200,100,200,50,200.0,0.0
+10800,300,200,100,200.0,0.0

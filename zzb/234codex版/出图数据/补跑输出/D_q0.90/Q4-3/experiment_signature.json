@@ -1,0 +1,8 @@
+{
+  "sha256": "ad9c7cec8860c489b134df461550952b0e1eab5bf4c113f75245082d8b543225",
+  "settings": {
+    "q": 0.9,
+    "oracle_load_pv": false,
+    "oracle_price": false
+  }
+}
