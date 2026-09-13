@@ -150,8 +150,8 @@
 ## 七、关于 `plot_style.py`
 
 `plot_q1.py`（第 43 行）、`验证/代码/问题1/check_optimal.py` 与 `sensitivity.py` 都要
-`from plot_style import ...`。该模块原先位于项目外层的 `数模/plot_style.py`，不在任何
-一份源材料里；本仓库把它收进 `代码/问题1/plot_style.py`，提供八个颜色常量与
+`from plot_style import ...`。该模块不在任何一份源材料里；本仓库把它收进
+`代码/问题1/plot_style.py`，提供八个颜色常量与
 `apply_base_style()`、`style_frame_grid()` 两个函数。
 
 取这个位置是因为：`plot_q1.py` 与本模块同目录，导入自己所在目录即可；

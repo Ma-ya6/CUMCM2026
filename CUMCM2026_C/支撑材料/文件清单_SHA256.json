@@ -1,10 +1,12 @@
 {
-  "说明": "原始附件已收录，冗余附录摘录已移除；本轮未执行模型复现。CSV.xz由还原压缩明细.py解压",
+  "说明": "已补齐38个D/F实验历史摘要与4个C0核验JSON；相同补齐方案已在独立副本验证export/verify通过。本轮未重跑模型，原结果文件未改动。CSV.xz由还原压缩明细.py还原。",
+  "supplemented_evidence_files": 42,
+  "supplemented_evidence_bytes": 29615,
   "files": [
     {
       "path": "00_支撑材料说明与复现步骤.md",
-      "bytes": 6225,
-      "sha256": "20ad0907b23c3525bf41b5730956ed5a4d05a4b0b81ba7e9df1ea8932bb47068"
+      "bytes": 7173,
+      "sha256": "6dfb19d5f096ef22e432e39383f8566dae5b232f667ad36d53a0f9b589c6b932"
     },
     {
       "path": "C题/C题.pdf",
@@ -58,8 +60,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 4865,
-      "sha256": "2528b9a639a9c715d525cf77d21be51dcbcc78617101ef474127939ec70490be"
+      "bytes": 5497,
+      "sha256": "ade27065abb6b3a9c3a6831ea0ee865c6911afe84cadbefcf3c6af219c4cc280"
     },
     {
       "path": "requirements.txt",
@@ -103,8 +105,8 @@
     },
     {
       "path": "代码/共享/出图数据/README_出图数据使用说明.md",
-      "bytes": 10914,
-      "sha256": "eaa98403a78c118c543d6e4e33c89387aeab0eac42723c9f692a4c5b019263d9"
+      "bytes": 10995,
+      "sha256": "d10c23cafb91582e6ad7b1e68f9b35249fa4d9be101019213843442db27cd187"
     },
     {
       "path": "代码/共享/出图数据/run_experiments.py",
@@ -720,6 +722,216 @@
       "path": "图表/数据表/附件1_固定电价144段.csv",
       "bytes": 2502,
       "sha256": "a0933a7e348f995f388872c9cf42db2dc1c4abf9999ac5fed3276744a104b67f"
+    },
+    {
+      "path": "图表/综合/补跑输出/C0/fixed_annual365.json",
+      "bytes": 301,
+      "sha256": "6cf35e8d6a25a70e12b6b4e6d7d86869d9f9eda3ad22bcff9e53b2b868d0b70d"
+    },
+    {
+      "path": "图表/综合/补跑输出/C0/fixed_formal334.json",
+      "bytes": 301,
+      "sha256": "222fa30df16a0af674058f2e0ad99551e5dde6bf61697072078f6070e0866049"
+    },
+    {
+      "path": "图表/综合/补跑输出/C0/variable_annual365.json",
+      "bytes": 300,
+      "sha256": "ef864d3bb91bedd2290b8d80c87bb79a3d6351d5d7dd3bc7d251db9b9285aa78"
+    },
+    {
+      "path": "图表/综合/补跑输出/C0/variable_formal334.json",
+      "bytes": 301,
+      "sha256": "99cb2bc541181fe7f1d91edca1c64fccbab0c7ca96de91c77db8bc6e14c5d275"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.50/Q2/Q2_summary.json",
+      "bytes": 750,
+      "sha256": "97977642012a9d95c3b20f4af89ff4fa0d933e924f2bdaef445c8a00fc816619"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.50/Q3/Q3_summary.json",
+      "bytes": 748,
+      "sha256": "eac2f38f9e00d6f583c6110fd741a00a2e61381be1a7d01658d01a45b202fc67"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.50/Q4-2/Q4-2_summary.json",
+      "bytes": 751,
+      "sha256": "7aaedc9eb1a7154df28f54c99b3e65db23f579a854f50bfce74882079d9fd14d"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.50/Q4-3/Q4-3_summary.json",
+      "bytes": 749,
+      "sha256": "a2847eb643b1276e1c459d949fc29a526f881076681ea0e168230c082dbbf19d"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.55/Q2/Q2_summary.json",
+      "bytes": 750,
+      "sha256": "ff197c1b479c594139edea0659727a6f1ee9c012e661bf2036e1775ba81945ff"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.55/Q3/Q3_summary.json",
+      "bytes": 751,
+      "sha256": "fb1016959a392937ef6abdf64fdfa53017b8c93b752e491fe185b4a3fe7bbd78"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.55/Q4-2/Q4-2_summary.json",
+      "bytes": 753,
+      "sha256": "d78f56ab9e7cd3b91021189eef4d66603e4c7d1ae358ffef372ab3a2358c1ba4"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.55/Q4-3/Q4-3_summary.json",
+      "bytes": 753,
+      "sha256": "6b183f2ecc8f00e795d7e18165d7fc3e8e4d979563ef2928c587775bcfae0401"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.60/Q2/Q2_summary.json",
+      "bytes": 750,
+      "sha256": "c2213901f1907fbcd98b82e2159cc6c6b6b047ab81ba2334efec80ae687f8fcf"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.60/Q3/Q3_summary.json",
+      "bytes": 751,
+      "sha256": "755b42aa1e05a126ff157bd27cacb0104bb5e63128de7e62cfb311b03b2f7647"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.60/Q4-2/Q4-2_summary.json",
+      "bytes": 752,
+      "sha256": "d414811153b8c781c7bfbe66344e3afc5cadea026af23c3e09bd0d5f84c93592"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.60/Q4-3/Q4-3_summary.json",
+      "bytes": 751,
+      "sha256": "425d725c56e06119fa04f021d86c3f6266ff12ef60ebe37cf50722e222de276e"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.65/Q2/Q2_summary.json",
+      "bytes": 749,
+      "sha256": "0198420b4f47f27b1d0c346d2084263d83f43a211098538b0000e657b05e9e59"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.65/Q3/Q3_summary.json",
+      "bytes": 748,
+      "sha256": "9d99dd36f61602daf0f049893f51c60a8a9026b7b166be8f84c100bc4d4ade07"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.65/Q4-2/Q4-2_summary.json",
+      "bytes": 754,
+      "sha256": "fdd24c5f56d7d809f04fe79cd35567831b957e5ea3d4a978818dcecb35385837"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.65/Q4-3/Q4-3_summary.json",
+      "bytes": 753,
+      "sha256": "884a38684aad1dec5f854c84803ffc1b62177fd70757a4f31230325c50b35e03"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.70/Q2/Q2_summary.json",
+      "bytes": 749,
+      "sha256": "5abe5dafd21a0ce33c6fa3873f32b1429f09e18170ccd5e02451fcc8a14f6a1f"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.70/Q3/Q3_summary.json",
+      "bytes": 751,
+      "sha256": "c3b37cc01dbd47f61f6331a71352404c528b63fadc761ecdfcfa349f2487a181"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.70/Q4-2/Q4-2_summary.json",
+      "bytes": 752,
+      "sha256": "d6459613e183101888d47c2109462ef0fbb3879e99852ee42c719bf9f4dd6180"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.70/Q4-3/Q4-3_summary.json",
+      "bytes": 750,
+      "sha256": "f95cb695842c6d0a8b027a194ef4a4eff03505b33ebe2385257fc0dbef679c00"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.75/Q2/Q2_summary.json",
+      "bytes": 752,
+      "sha256": "3b751ab85636b43cb212b68e9c4ab8c01f85f06b917518d5ff15312806964efc"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.75/Q3/Q3_summary.json",
+      "bytes": 751,
+      "sha256": "d092b0847c5861bf06c4c65cf2ba39310fbce9c5a1756ce7ed726a06af3b9d14"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.75/Q4-2/Q4-2_summary.json",
+      "bytes": 753,
+      "sha256": "a59fd582d7436d57e8e93fe1d2017dcf2dc5ceae3bcb5bf767f4ca63e216b507"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.75/Q4-3/Q4-3_summary.json",
+      "bytes": 752,
+      "sha256": "b5ffed36cc7554652a09986def5055d2a0e07f30249594298c4d192160e086bd"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.85/Q2/Q2_summary.json",
+      "bytes": 732,
+      "sha256": "e7b04d59d0cc0970c41e184af8ecc27f24b35ca2df200f574eea4d75d0bc9381"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.85/Q3/Q3_summary.json",
+      "bytes": 750,
+      "sha256": "db2764fdc165f584aa6f4d3097f086565509cbe634d1ac3c40d6a049ee6fcd65"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.85/Q4-2/Q4-2_summary.json",
+      "bytes": 752,
+      "sha256": "b71911c66ba1e243a5d346bea566b4365026c91817e17532776c2681005dad11"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.85/Q4-3/Q4-3_summary.json",
+      "bytes": 751,
+      "sha256": "b766ab23384ba1ad87b8fa4e51ceabf261731a6a5987b99ea0d857be0e7e5303"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.90/Q2/Q2_summary.json",
+      "bytes": 731,
+      "sha256": "a71bc600ad489c8831ef8e54d88dd48986986c9d88390561427c2a0bb821af60"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.90/Q3/Q3_summary.json",
+      "bytes": 749,
+      "sha256": "dbf7ca817c3ab19a44bb778530497b4f9f3626798bb54bfd5daa3cb3dcba4b0d"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.90/Q4-2/Q4-2_summary.json",
+      "bytes": 752,
+      "sha256": "96ab54f5e46265947dcb1ae12f32d5ecbc746ea7318ffaa9ebdef4f43ea33dad"
+    },
+    {
+      "path": "图表/综合/补跑输出/D_q0.90/Q4-3/Q4-3_summary.json",
+      "bytes": 750,
+      "sha256": "1a82f3eb8b6af5d38659e088a863c13f0d604454207e6e186a48f460e489f1a6"
+    },
+    {
+      "path": "图表/综合/补跑输出/F_C1_full_oracle/Q2/Q2_summary.json",
+      "bytes": 728,
+      "sha256": "46c64c312dfce98cac16d676da12a4f99842d868365ed059bb3e6f6c3c3a1479"
+    },
+    {
+      "path": "图表/综合/补跑输出/F_C1_full_oracle/Q3/Q3_summary.json",
+      "bytes": 729,
+      "sha256": "5fd16ae54f33ed13ed9b32cdc6a0e4ed3c6c014f8cfaec9948766125e4e546ff"
+    },
+    {
+      "path": "图表/综合/补跑输出/F_C1_full_oracle/Q4-2/Q4-2_summary.json",
+      "bytes": 732,
+      "sha256": "be7c85c9f24164a254374954cb7d346b395b55ba59df9072d93a35561f1d9119"
+    },
+    {
+      "path": "图表/综合/补跑输出/F_C1_full_oracle/Q4-3/Q4-3_summary.json",
+      "bytes": 731,
+      "sha256": "f9abe5278fd692d077d287663234a76b770d21a6d5fd5671b1e25becfd4e0e70"
+    },
+    {
+      "path": "图表/综合/补跑输出/F_C2_price_oracle/Q4-2/Q4-2_summary.json",
+      "bytes": 752,
+      "sha256": "e1f06f3a831ccaaa0840db15683ecf70efa934c4a715b2afea1bd825e3450b96"
+    },
+    {
+      "path": "图表/综合/补跑输出/F_C2_price_oracle/Q4-3/Q4-3_summary.json",
+      "bytes": 750,
+      "sha256": "92a0bfdb648dbf313dc624c4c68c658fea43c4537babd55c630556acde437100"
     },
     {
       "path": "环境/创建虚拟环境.cmd",

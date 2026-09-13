@@ -1,0 +1,24 @@
+{
+  "problem": "Q3",
+  "simulation_days": 365,
+  "formal_days": 334,
+  "calendar_year_cost_yuan": 15202542.939968336,
+  "formal_period_cost_yuan": 13392369.521610726,
+  "final_soc_kwh": 6000.0,
+  "audit": {
+    "max_balance_err": 1.2755663192365319e-10,
+    "max_purchase_identity_err": 2.2737367544323206e-13,
+    "max_pv_identity_err": 2.2737367544323206e-13,
+    "max_soc_recursion_err": 0.0,
+    "soc_violations": 0,
+    "power_violations": 0,
+    "simultaneous_charge_discharge": 0,
+    "negative_flow": 0,
+    "slots": 52560
+  },
+  "seconds": 127.05038905143738,
+  "quantile": 0.7,
+  "oracle_load_pv": false,
+  "oracle_price": false,
+  "source": "codex isolated experiment; oracle values are NOT implementable forecasts"
+}
