@@ -5,8 +5,13 @@
   "files": [
     {
       "path": "00_支撑材料说明与复现步骤.md",
-      "bytes": 7173,
-      "sha256": "6dfb19d5f096ef22e432e39383f8566dae5b232f667ad36d53a0f9b589c6b932"
+      "bytes": 7031,
+      "sha256": "d18757a22547530520410abc2225e7d923e8e0b863a7bd6f4621fb7c7617ac75"
+    },
+    {
+      "path": "AI使用情况说明/AI工具使用详情说明.docx",
+      "bytes": 38561,
+      "sha256": "26ed7a9a033ab1d824d0e78f7eb23517f92c9c9c80fe7c06f577051fd98d0fab"
     },
     {
       "path": "C题/C题.pdf",
@@ -60,8 +65,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5497,
-      "sha256": "ade27065abb6b3a9c3a6831ea0ee865c6911afe84cadbefcf3c6af219c4cc280"
+      "bytes": 5543,
+      "sha256": "5bb5dede8679bbedcbbb92cca4fc242d07848841188b4dd997b1bee4dd55d579"
     },
     {
       "path": "requirements.txt",
@@ -105,8 +110,8 @@
     },
     {
       "path": "代码/共享/出图数据/README_出图数据使用说明.md",
-      "bytes": 10995,
-      "sha256": "d10c23cafb91582e6ad7b1e68f9b35249fa4d9be101019213843442db27cd187"
+      "bytes": 10799,
+      "sha256": "b2ee6c469581e2b47a29d998e9ae0f3758fb5c54ff3a18c18041f53c78a9ef6c"
     },
     {
       "path": "代码/共享/出图数据/run_experiments.py",
@@ -115,8 +120,8 @@
     },
     {
       "path": "代码/共享/出图数据/run_issue_hours_ablation.py",
-      "bytes": 3408,
-      "sha256": "ab7ecb42bfab55cceba660796f26bae045a41a3887a04b76bf61cfd99b148e63"
+      "bytes": 3495,
+      "sha256": "5c52277ee341b6f7bdd6ee30693018730b5ad695dd4b2cbbf4c210cad03b729a"
     },
     {
       "path": "代码/共享/出图数据/一键导出现有出图数据.cmd",
@@ -175,8 +180,8 @@
     },
     {
       "path": "代码/问题1/README.md",
-      "bytes": 9329,
-      "sha256": "c3cab108ffaac285da0a10ab6ba5f5ce5e780840a0566f5d8ceef186c86be50b"
+      "bytes": 9275,
+      "sha256": "10d65482fcc91b53a578b63e9c10be31335c2962e27d2b8da7b8a6d312bf3b45"
     },
     {
       "path": "代码/问题1/solve_q1_ab.py",
@@ -412,6 +417,11 @@
       "path": "代码/问题4/问题4-3/一键运行.cmd",
       "bytes": 546,
       "sha256": "afc7f8d6eaace02eb33f5b40c2ba3441a2a2aa5ee28b938ae77245cada694834"
+    },
+    {
+      "path": "代码/附录_核心求解代码.py",
+      "bytes": 107547,
+      "sha256": "5f27048272a16892f232d47fb8984593246c1e43da62106add33505478a0667b"
     },
     {
       "path": "先运行_还原明细.cmd",
@@ -1095,8 +1105,8 @@
     },
     {
       "path": "论文/方法说明与模型评价.md",
-      "bytes": 58642,
-      "sha256": "b6caa2adf80fa534ec1e58dca1e4ccb2407a3d4c3287b3c3a44c07fc42267006"
+      "bytes": 57971,
+      "sha256": "2d30d258372bb1d88f0ab2c54f542e8be7be6c8cefbf49fb564c333edac3b964"
     },
     {
       "path": "论文/时间口径说明.md",
@@ -1107,16 +1117,6 @@
       "path": "论文/模型介绍.md",
       "bytes": 27676,
       "sha256": "d3869d000a4749c409fc3270b57d1f84641f225c1d74751dfbf91f426a759f41"
-    },
-    {
-      "path": "论文/符号规定.md",
-      "bytes": 11230,
-      "sha256": "b3d92fa693168df7b28cd211102860c8759f3544ee07b8345c2be19132928490"
-    },
-    {
-      "path": "论文/论文.md",
-      "bytes": 86211,
-      "sha256": "8db84ed47dac2cc6530c09bbce875ed7e0c5452faf0e4f033349de8547f2f786"
     },
     {
       "path": "还原压缩明细.py",
@@ -1170,8 +1170,8 @@
     },
     {
       "path": "验证/代码/audits/逻辑检查报告.md",
-      "bytes": 8372,
-      "sha256": "4c07f3ae660879bfe2f28fa058c9e13eb364ab650376646b8f70cbb1c69919ad"
+      "bytes": 8141,
+      "sha256": "d5a20418ea11afcb9f09b374829b5bf290602f197b3c14976d0d79b19706efff"
     },
     {
       "path": "验证/代码/test_time_rules.py",
@@ -1195,8 +1195,8 @@
     },
     {
       "path": "验证/代码/问题1/README.md",
-      "bytes": 4019,
-      "sha256": "dab009eeab2d98c87ed3084a20f22e56702b5254b43dfe517d50beb5f8b38a41"
+      "bytes": 3961,
+      "sha256": "4a23f1ba889e995eae5a9a5886af3ca6b00390f7f279a1cd1f76da4b818039c2"
     },
     {
       "path": "验证/代码/问题1/sensitivity.py",
@@ -1225,8 +1225,8 @@
     },
     {
       "path": "验证/报告/验证说明.md",
-      "bytes": 3774,
-      "sha256": "a2de7ecb735a55eb1af36d62f764ccca1a02cc2fc78e6b16b7b91be8afb651ed"
+      "bytes": 3636,
+      "sha256": "173a7fabf3bc7336b9427d64ea83d39b2de8c48d95befa5d4e803688735ba8f5"
     },
     {
       "path": "验证/数据/历史昼夜掩码误置零示例.csv",
