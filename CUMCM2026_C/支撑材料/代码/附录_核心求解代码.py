@@ -50,6 +50,7 @@ from __future__ import annotations
 import json
 import sys
 import time
+import warnings
 from dataclasses import dataclass, field, replace
 from pathlib import Path
 
@@ -67,6 +68,11 @@ from scipy.optimize import Bounds, LinearConstraint, linprog, milp
 for _stream in (sys.stdout, sys.stderr):
     if hasattr(_stream, "reconfigure"):
         _stream.reconfigure(encoding="utf-8")
+
+# LightGBM 的 sklearn 接口会给无列名数组自动生成 Column_0…Column_n 写入
+# feature_names_in_，于是 sklearn 每次 predict(ndarray) 都报"特征名无效"的
+# UserWarning。特征按位置对齐，与数值结果无关，此处静音。
+warnings.filterwarnings("ignore", message="X does not have valid feature names")
 
 
 # ===========================================================================
