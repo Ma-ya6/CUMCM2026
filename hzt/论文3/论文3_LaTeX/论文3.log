@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.9.12)  12 SEP 2026 22:15
+This is XeTeX, Version 3.141592653-2.6-0.999997 (MiKTeX 25.12) (preloaded format=xelatex 2026.9.12)  13 SEP 2026 08:23
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1098,7 +1098,7 @@ File: figures/fig07.png Graphic file (type bmp)
 File: figures/fig08.png Graphic file (type bmp)
 <figures/fig08.png>
  [26]
-Overfull \hbox (13.65215pt too wide) in paragraph at lines 715--716
+Overfull \hbox (13.65215pt too wide) in paragraph at lines 723--724
 []\TU/SimSun(0)/m/n/10 这 一 结 论 不 能 外 推 到 自 然 年 口 径。|  在 自 然 年 \TU/lmr/m/n/10 36
 5 \TU/SimSun(0)/m/n/10 天 的 口 径 下，|  问 题 \TU/lmr/m/n/10 4-3 \TU/SimSun(0)/m/n/10
  关 闭 \TU/lmr/m/n/10 6:00 \TU/SimSun(0)/m/n/10 会 使 费 用 从 \TU/lmr/m/n/10 16,218,3
@@ -1112,7 +1112,7 @@ File: figures/fig09.png Graphic file (type bmp)
 File: figures/fig10.png Graphic file (type bmp)
 <figures/fig10.png>
  [31] [32] [33] [34] [35] [36]
-Overfull \hbox (36.00693pt too wide) in paragraph at lines 954--965
+Overfull \hbox (36.00693pt too wide) in paragraph at lines 962--973
  [][] 
  []
 
@@ -1125,10 +1125,10 @@ Package rerunfilecheck Info: File `论文3.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 18848 strings out of 402987
- 430547 string characters out of 5447489
+ 18850 strings out of 402987
+ 430609 string characters out of 5447489
  851044 words of memory out of 5000000
- 47312 multiletter control sequences out of 15000+600000
+ 47314 multiletter control sequences out of 15000+600000
  641892 words of font info for 125 fonts, out of 8000000 for 9000
  1348 hyphenation exceptions out of 8191
  93i,13n,111p,813b,552s stack positions out of 10000i,1000n,20000p,200000b,200000s

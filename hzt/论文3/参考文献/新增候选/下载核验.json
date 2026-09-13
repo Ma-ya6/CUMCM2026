@@ -1,0 +1,37 @@
+[
+  {
+    "name": "01_Morstyn_2017_MPC_Battery",
+    "url": "https://arxiv.org/pdf/1702.04699",
+    "status": "downloaded",
+    "pages": 8,
+    "first_page": "1\nModel Predictive Control for Distributed Microgrid\nBattery Energy Storage Systems\nThomas Morstyn, Member, IEEE, Branislav Hredzak, Senior Member, IEEE,\nRicardo P. Aguilera, Member, IEEE, and Vassilios G. Agelidis, Fellow, IEEE\nAbstract—This paper proposes a new convex model predictive\ncontrol strategy for dynamic optimal power ﬂow between battery\nenergy storage systems distributed in an AC microgrid. The\nproposed control strategy uses a new problem formulation, based\non a linear d–q reference frame voltage-current model and\nlinearised power ﬂow approximations. This allows the optimal\npower ﬂows to be solved as a convex optimisation problem, for\nwhich fast and robust solvers exist. The proposed method does\nnot assume real and reactive power ﬂows are decoupled, allowing\nline losses, voltage constraints and converter current constraints\nto be addressed. In addition, non-linear variations in the charge\nand discharge efﬁciencies of lithium ion batteries are analysed\nand included in the co"
+  },
+  {
+    "name": "02_Pacaud_2018_Stochastic_Microgrid",
+    "url": "https://arxiv.org/pdf/1801.06479",
+    "status": "downloaded",
+    "pages": 8,
+    "first_page": "1\nStochastic optimal control of a domestic microgrid\nequipped with solar panel and battery\nFranc¸ois Pacaud∗, Pierre Carpentier†, Jean-Philippe Chancelier‡, Michel De Lara‡\n∗Efﬁcacity — † ENSTA — ‡ CERMICS-ENPC\nAbstract—Microgrids are integrated systems that gather and\noperate energy production units to satisfy consumers demands.\nThis paper details different mathematical methods to design the\nEnergy Management System (EMS) of domestic microgrids. We\nconsider different stocks coupled together — a battery, a domestic\nhot water tank — and decentralized energy production with solar\npanel. The main challenge of the EMS is to ensure, at least\ncost, that supply matches demand for all time, while considering\nthe inherent uncertainties of such systems. We benchmark two\noptimization algorithms to manage the EMS, and compare them\nwith a heuristic. The Model Predictive Control (MPC) is a well\nknown algorithm which models the future uncertainties with\na deterministic forecast. By contrast, Stochast"
+  },
+  {
+    "name": "03_Ke_2017_LightGBM",
+    "url": "https://papers.nips.cc/paper/6907-lightgbm-a-highly-efficient-gradient-boosting-decision-tree.pdf",
+    "status": "downloaded",
+    "pages": 9,
+    "first_page": "LightGBM: A Highly Efﬁcient Gradient Boosting\nDecision Tree\nGuolin Ke1, Qi Meng2, Thomas Finley3, Taifeng Wang1,\nWei Chen1, Weidong Ma1, Qiwei Ye1, Tie-Yan Liu1\n1Microsoft Research\n2Peking University\n3 Microsoft Redmond\n1{guolin.ke, taifengw, wche, weima, qiwye, tie-yan.liu}@microsoft.com;\n2qimeng13@pku.edu.cn;\n3tﬁnely@microsoft.com;\nAbstract\nGradient Boosting Decision Tree (GBDT) is a popular machine learning algo-\nrithm, and has quite a few effective implementations such as XGBoost and pGBRT.\nAlthough many engineering optimizations have been adopted in these implemen-\ntations, the efﬁciency and scalability are still unsatisfactory when the feature\ndimension is high and data size is large. A major reason is that for each feature,\nthey need to scan all the data instances to estimate the information gain of all\npossible split points, which is very time consuming. To tackle this problem, we\npropose two novel techniques: Gradient-based One-Side Sampling (GOSS) and\nExclusive Feature Bundli"
+  },
+  {
+    "name": "04_Perera_2022_PV_Forecast_Combinations",
+    "url": "https://arxiv.org/pdf/2206.10795",
+    "status": "downloaded",
+    "pages": 36,
+    "first_page": "Multi-Resolution, Multi-Horizon Distributed Solar PV\nPower Forecasting with Forecast Combinations\nManeesha Perera∗\nDepartment of Mechanical Engineering, School of Electrical, Mechanical and Infrastructure\nEngineering, The University of Melbourne, Melbourne, Australia\nJulian De Hoog\nDepartment of Mechanical Engineering, School of Electrical, Mechanical and Infrastructure\nEngineering, The University of Melbourne, Melbourne, Australia\nKasun Bandara\nSchool of Computing and Information Systems, Melbourne Centre for Data Science, The\nUniversity of Melbourne, Melbourne, Australia\nSaman Halgamuge\nDepartment of Mechanical Engineering, School of Electrical, Mechanical and Infrastructure\nEngineering, The University of Melbourne, Melbourne, Australia\nThis manuscript was accepted for publication on May 28, 2022.\nThis is the accepted\nversion of the manuscript. The published version of the manuscript is available at: https:\n//doi.org/10.1016/j.eswa.2022.117690\n© 2022. This manuscript version is made "
+  },
+  {
+    "name": "05_Iheanetu_2022_PV_Forecasting_Review",
+    "url": "https://mdpi-res.com/d_attachment/sustainability/sustainability-14-17005/article_deploy/sustainability-14-17005.pdf",
+    "status": "downloaded",
+    "pages": 34,
+    "first_page": " \n \n \n \nSustainability 2022, 14, 17005. https://doi.org/10.3390/su142417005 \nwww.mdpi.com/journal/sustainability \nReview \nSolar Photovoltaic Power Forecasting: A Review \nKelachukwu J. Iheanetu \nFort Hare Institute of Technology, University of Fort Hare, Alice 5700, South Africa; kiheanetu@ufh.ac.za \nAbstract: The recent global warming effect has brought into focus different solutions for combating \nclimate change. The generation of climate-friendly renewable energy alternatives has been vastly \nimproved and commercialized for power generation. As a result of this industrial revolution, solar \nphotovoltaic (PV) systems have drawn much attention as a power generation source for varying \napplications, including the main utility-grid power supply. There has been tremendous growth in \nboth on- and off-grid solar PV installations in the last few years. This trend is expected to continue \nover the next few years as government legislation and awareness campaigns increase to encourage \na shift "
+  }
+]
