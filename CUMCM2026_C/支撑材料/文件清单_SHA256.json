@@ -9,7 +9,7 @@
       "sha256": "d18757a22547530520410abc2225e7d923e8e0b863a7bd6f4621fb7c7617ac75"
     },
     {
-      "path": "AI使用情况说明/AI工具使用详情说明.docx",
+      "path": "AI工具使用详情说明.docx",
       "bytes": 38561,
       "sha256": "26ed7a9a033ab1d824d0e78f7eb23517f92c9c9c80fe7c06f577051fd98d0fab"
     },
@@ -65,8 +65,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 5543,
-      "sha256": "5bb5dede8679bbedcbbb92cca4fc242d07848841188b4dd997b1bee4dd55d579"
+      "bytes": 5553,
+      "sha256": "16d691ad950c9689a1fc64187c8c081d2b9b27bdb747f39a8c75368df7cea728"
     },
     {
       "path": "requirements.txt",
