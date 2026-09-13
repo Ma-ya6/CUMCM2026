@@ -1,0 +1,22 @@
+[
+  {
+    "path": "结果/问题2/Q2_physical_10min.csv",
+    "sha256": "f01a584ec7ba0d6c610f3c53472a3c06cb7c8d21df4cdd756daaeff5624f1f29",
+    "bytes": 8101971
+  },
+  {
+    "path": "结果/问题3/Q3_physical_10min.csv",
+    "sha256": "4e418ecde7540b7352fb0f5f6cd6cc313f03c9a7cd95b7674c811ff105131983",
+    "bytes": 8110187
+  },
+  {
+    "path": "结果/问题4/问题4-2/Q4-2_physical_10min.csv",
+    "sha256": "1b0fe1d24991d3a6e5207d4dabaffde1489112108b5aee312d3426227b9ee515",
+    "bytes": 8097817
+  },
+  {
+    "path": "结果/问题4/问题4-3/Q4-3_physical_10min.csv",
+    "sha256": "500c7c8b74a84d329ae59845da7d69de54e5ad7616f8eea930798adbd3ce2a10",
+    "bytes": 8109079
+  }
+]

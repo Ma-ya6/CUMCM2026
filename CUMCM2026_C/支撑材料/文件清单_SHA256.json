@@ -1,0 +1,1035 @@
+{
+  "说明": "原始附件已收录，冗余附录摘录已移除；本轮未执行模型复现。CSV.xz由还原压缩明细.py解压",
+  "files": [
+    {
+      "path": "00_支撑材料说明与复现步骤.md",
+      "bytes": 6225,
+      "sha256": "20ad0907b23c3525bf41b5730956ed5a4d05a4b0b81ba7e9df1ea8932bb47068"
+    },
+    {
+      "path": "C题/C题.pdf",
+      "bytes": 354389,
+      "sha256": "2c098f6ae9dd47ae965aebdec3b9facf3de6c173f999783c1012c08fc5fb9d2d"
+    },
+    {
+      "path": "C题/附件/附件1.xlsx",
+      "bytes": 16003,
+      "sha256": "66b87134f5ecccd68184d3539bb1293ef039f9e0fdd955a589b9bfa7f227c377"
+    },
+    {
+      "path": "C题/附件/附件2.xlsx",
+      "bytes": 907128,
+      "sha256": "2e95fd446bfafa0d8c59577b5c2e2ea8b3f1def20dde54a3062556f4da9b4c72"
+    },
+    {
+      "path": "C题/附件/附件3.xlsx",
+      "bytes": 293526,
+      "sha256": "8a61b06c52bd0d639a1cc37c61a7d9f5b75edcbca718f64c1bd3498ec9f9d843"
+    },
+    {
+      "path": "C题/附件/附件4.xlsx",
+      "bytes": 409790,
+      "sha256": "20e9c93aeab5e8e21ae4dd15587f9e190f7408692504c1319598461cd654fe71"
+    },
+    {
+      "path": "C题/附件/附件5/result1.xlsx",
+      "bytes": 13323,
+      "sha256": "28360e0974e7d6065394a8aba4e14a86773ae0036cc7d3ea1b211b515b03d688"
+    },
+    {
+      "path": "C题/附件/附件5/result2.xlsx",
+      "bytes": 18397,
+      "sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47"
+    },
+    {
+      "path": "C题/附件/附件5/result3.xlsx",
+      "bytes": 265429,
+      "sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+    },
+    {
+      "path": "C题/附件/附件5/result4-2.xlsx",
+      "bytes": 18397,
+      "sha256": "1c26494cfc6d754e0bd9bff7e13e1126a73d2d2da6c5336eb251d89b9a1a1a47"
+    },
+    {
+      "path": "C题/附件/附件5/result4-3.xlsx",
+      "bytes": 265429,
+      "sha256": "c59da470cabd0be23f602c95c8aa9d11ec224a0cdac216b3e1f218e65d006bdc"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4865,
+      "sha256": "2528b9a639a9c715d525cf77d21be51dcbcc78617101ef474127939ec70490be"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 396,
+      "sha256": "cfd450fa2d365a137575015cc744e2c3b4e0f2694786955eeca5564403847051"
+    },
+    {
+      "path": "代码/共享/cache/rebuilt.npz",
+      "bytes": 2653390,
+      "sha256": "720350d79500e0fe04e2c8d03e2e22b2165819f8bb5a943f45ce9148df3c70ee"
+    },
+    {
+      "path": "代码/共享/opt_core.py",
+      "bytes": 27318,
+      "sha256": "62bb4fcd9f7aa831adbcce9ba9465e5885a0e58f0ae2586ff84a5f3a493c60c3"
+    },
+    {
+      "path": "代码/共享/project.py",
+      "bytes": 3192,
+      "sha256": "5b833a3062070f3638001bdc8f1e7415ed200d65c886ff67d9383d9bd76f5ac1"
+    },
+    {
+      "path": "代码/共享/run_year.py",
+      "bytes": 17965,
+      "sha256": "6070972474be06bfcea69aeccbfb58b387b8efa0d59d064936072eb876059110"
+    },
+    {
+      "path": "代码/共享/出图数据/experiment_backend.py",
+      "bytes": 8104,
+      "sha256": "3eae05a8dd469b6f2e3150fc28a53b1e3dab7c630d9f1511edfb425332954dce"
+    },
+    {
+      "path": "代码/共享/出图数据/export_plot_data.py",
+      "bytes": 20370,
+      "sha256": "0b34777f7050fae425ce694f2acd7ceefae402a5a120a840edf743ef58b69448"
+    },
+    {
+      "path": "代码/共享/出图数据/plot_result_figures.py",
+      "bytes": 28586,
+      "sha256": "7a6010c1ab2a80aa284725a28d46f3e4d2429e01df137b03625c6f59944da793"
+    },
+    {
+      "path": "代码/共享/出图数据/README_出图数据使用说明.md",
+      "bytes": 10914,
+      "sha256": "eaa98403a78c118c543d6e4e33c89387aeab0eac42723c9f692a4c5b019263d9"
+    },
+    {
+      "path": "代码/共享/出图数据/run_experiments.py",
+      "bytes": 10581,
+      "sha256": "05ecf9cb922e09b76c73a821e6f678c4e8c4567438edef8d38205126f4c1f496"
+    },
+    {
+      "path": "代码/共享/出图数据/run_issue_hours_ablation.py",
+      "bytes": 3408,
+      "sha256": "ab7ecb42bfab55cceba660796f26bae045a41a3887a04b76bf61cfd99b148e63"
+    },
+    {
+      "path": "代码/共享/出图数据/一键导出现有出图数据.cmd",
+      "bytes": 198,
+      "sha256": "361eefebadf086163e631ac18c4b28d0419f9d99dacd53698b24457449378317"
+    },
+    {
+      "path": "代码/共享/出图数据/一键生成全部补跑表DF.cmd",
+      "bytes": 235,
+      "sha256": "346f3d6254dafd0868662aaa67c0be0b3c0bf2bef4feaefa22e6806fa1035d11"
+    },
+    {
+      "path": "代码/共享/出图数据/一键生成表D分位数扫描.cmd",
+      "bytes": 221,
+      "sha256": "1a38d7f242987689bbf397577085a28ac150b6e5e9c47381f2727c98b7db48dd"
+    },
+    {
+      "path": "代码/共享/出图数据/一键生成表F全知下界阶梯.cmd",
+      "bytes": 226,
+      "sha256": "2720122c8bcf92d3bfb2ffcefe4a44390900eb23554ba32915283dee58171cf4"
+    },
+    {
+      "path": "代码/共享/出图数据/典型日期建议.json",
+      "bytes": 230,
+      "sha256": "af2eded638f5e3504534af3f366e433b95059643a2adaeb52f096dba57da3bdc"
+    },
+    {
+      "path": "代码/共享/出图数据/数据核验与文件清单.json",
+      "bytes": 19255,
+      "sha256": "85eb8df3effebb5658cd2dee337221bd07ac4f3ee1c9726a3ce6d21825d21371"
+    },
+    {
+      "path": "代码/共享/出图数据/既有时间回归检验证据.json",
+      "bytes": 531,
+      "sha256": "772a5f961d226ef295ff397d4b008c79c5643f13b888e117498e0d29241e6cd9"
+    },
+    {
+      "path": "代码/共享/出图数据/综合图.py",
+      "bytes": 20196,
+      "sha256": "caa602bf8cb43666dd206ac1f492e448a3804dbac0e1f70ee68537bf6f46076c"
+    },
+    {
+      "path": "代码/共享/导出result.py",
+      "bytes": 9544,
+      "sha256": "4acec0a0f8ff9a11594df9f3cf26a4cd6dfa63ea9acb40267bfe6eed430d35b4"
+    },
+    {
+      "path": "代码/问题1/plot_q1.py",
+      "bytes": 9548,
+      "sha256": "8c07b54b4b0fdcf7b378fb31895cb0f6201620bf370dc131c1dbe68b8288590f"
+    },
+    {
+      "path": "代码/问题1/plot_style.py",
+      "bytes": 3538,
+      "sha256": "9755e99cbdd900876d3de26a764a1fbd214ea7a93537794ca92d00c2daa50260"
+    },
+    {
+      "path": "代码/问题1/README.md",
+      "bytes": 9329,
+      "sha256": "c3cab108ffaac285da0a10ab6ba5f5ce5e780840a0566f5d8ceef186c86be50b"
+    },
+    {
+      "path": "代码/问题1/solve_q1_ab.py",
+      "bytes": 25765,
+      "sha256": "9c3c4c5545655534b5acfce398f3f1632c6981257047060364ff07019b58487b"
+    },
+    {
+      "path": "代码/问题1/一键运行.cmd",
+      "bytes": 103,
+      "sha256": "9cab768ef4865feb9c5722f7778899ce7f9ed0e4f75a572ae0620ff01ad8c6d1"
+    },
+    {
+      "path": "代码/问题2/deps/deterministic_baseline.py",
+      "bytes": 52443,
+      "sha256": "870c2aa95d94f39f1e7da8b61c8c9b5ddab6c81079fdb37bf2304bd4650feecb"
+    },
+    {
+      "path": "代码/问题2/deps/final_model_q2.py",
+      "bytes": 11729,
+      "sha256": "602a5822083ecfd29e97d1304dac855717100f0299340bd8edbf706a339a4e35"
+    },
+    {
+      "path": "代码/问题2/deps/seasonal/__init__.py",
+      "bytes": 1403,
+      "sha256": "b6abe4b1bb599e063f571106ddc4857da2703ec0eb59ce7a7c99e4c51a96e613"
+    },
+    {
+      "path": "代码/问题2/deps/seasonal/adaptive_forecast.py",
+      "bytes": 12345,
+      "sha256": "1952162bd1c8f8df94a6cbaeea0a664229e76e1511b2c70ad2fcccbe695a0836"
+    },
+    {
+      "path": "代码/问题2/deps/seasonal/online_correction.py",
+      "bytes": 10174,
+      "sha256": "8f85eb27f2a5b048acde7384be3b6d075a3c0821f8cc9b72921fe624da0c2127"
+    },
+    {
+      "path": "代码/问题2/deps/seasonal/scenario_generator.py",
+      "bytes": 8980,
+      "sha256": "772ea9f547d803148bff8d2635cd70207acf0e427a8fea7e4e2e7bbbabc38057"
+    },
+    {
+      "path": "代码/问题2/deps/seasonal/season_state.py",
+      "bytes": 14358,
+      "sha256": "b36d10ad041edb9385fe1802b9cc7ac07141486f0c3129e241953009b9c867ac"
+    },
+    {
+      "path": "代码/问题2/deps/seasonal/stochastic_lp.py",
+      "bytes": 6625,
+      "sha256": "01a1969837df02471ac31f74276c77706fce32d68a3c35eddd7c131b89b38484"
+    },
+    {
+      "path": "代码/问题2/deps/seasonal/weekly_effect.py",
+      "bytes": 15181,
+      "sha256": "342a36b0c37e040132ac35780e3f6c3171f2c1bfacbc28f3d7f583eb83a9a98f"
+    },
+    {
+      "path": "代码/问题2/一键运行.cmd",
+      "bytes": 541,
+      "sha256": "b321c55f5932a1859f0bd66218cea76387fd0d4644b1818dbb2666d766dd84ba"
+    },
+    {
+      "path": "代码/问题3/deps/accuracy.py",
+      "bytes": 13161,
+      "sha256": "c2f385aa13524a7166eac9dd29b858f28824e0a5c13b31372ce9e47c2cd20f36"
+    },
+    {
+      "path": "代码/问题3/deps/common.py",
+      "bytes": 10779,
+      "sha256": "f5d1dd4ff66416fbbc7bd8b79e28abf87b6878099f0e738cca17628fef5a40d4"
+    },
+    {
+      "path": "代码/问题3/deps/dispatch_core.py",
+      "bytes": 17155,
+      "sha256": "cf61c3e59bac6294f6236131459d34ba876b3084fb309e72bd75753276daf094"
+    },
+    {
+      "path": "代码/问题3/deps/export_result3.py",
+      "bytes": 26608,
+      "sha256": "dbe49f96a69eb657411a122be0410466c8dbe986e610ad890363ca2540c17937"
+    },
+    {
+      "path": "代码/问题3/deps/forecasts.py",
+      "bytes": 13813,
+      "sha256": "b5721762e2424b93b8478074116f550df0b6f214db0eb18cc241688584521b13"
+    },
+    {
+      "path": "代码/问题3/deps/models.py",
+      "bytes": 24055,
+      "sha256": "504db7ec951a16d442982b3ebb771f7d6b779f74e32335fdd85b6dacb9589577"
+    },
+    {
+      "path": "代码/问题3/deps/run_models.py",
+      "bytes": 6051,
+      "sha256": "b534ffd3f2748a3410c7a8e49ceda423323c5379235a251fb6bcb36c5b81e743"
+    },
+    {
+      "path": "代码/问题3/一键运行.cmd",
+      "bytes": 541,
+      "sha256": "bfdac476199ec9914925f98c6a15ec7254394ce185245a052e0e6b542bb5c47d"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/deterministic_baseline.py",
+      "bytes": 53889,
+      "sha256": "f2bad1f5a26db499f63b70842d35dc11104b9ee65eb97850cf4ff28b95988978"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/export_result4_2.py",
+      "bytes": 5120,
+      "sha256": "e890d1f81134fbc46c010e88af4804e041cc07985d9a98dad9c75248a177120c"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/final_model_q4_2.py",
+      "bytes": 15818,
+      "sha256": "9d2e6b32a6388487c3bc95f23477d17eb7aa38c3a256a81dc374741bf0f7a45c"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/forecast_gap_analysis.py",
+      "bytes": 3738,
+      "sha256": "e27bdb638cf8b1276ae4ee10a3051fc4d3b48b0b88ee40dc19203115fb2dd9ca"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/oracle_lower_bound.py",
+      "bytes": 8326,
+      "sha256": "63396019ec5b0a0a0097199f63abd16999d1426c41fcba56872ac46fc588d8f3"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/price_forecast.py",
+      "bytes": 3177,
+      "sha256": "3ca2af041893fa4ea4f252076270e06ce1a86473f0db98d4099d89c5e983afc3"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/price_gap_diagnosis.py",
+      "bytes": 6252,
+      "sha256": "c27f2e0c6f72f18713a4a639a7cdc9181cd6c9268f588636c33a76b00e7aa459"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/q2_vs_q4_gap.py",
+      "bytes": 4214,
+      "sha256": "7728af131ada8663fa22fc820634b4026ace40ff1eae856fa920b07a8baa1493"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/seasonal/__init__.py",
+      "bytes": 1403,
+      "sha256": "b6abe4b1bb599e063f571106ddc4857da2703ec0eb59ce7a7c99e4c51a96e613"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/seasonal/adaptive_forecast.py",
+      "bytes": 12345,
+      "sha256": "1952162bd1c8f8df94a6cbaeea0a664229e76e1511b2c70ad2fcccbe695a0836"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/seasonal/online_correction.py",
+      "bytes": 10174,
+      "sha256": "8f85eb27f2a5b048acde7384be3b6d075a3c0821f8cc9b72921fe624da0c2127"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/seasonal/scenario_generator.py",
+      "bytes": 8980,
+      "sha256": "772ea9f547d803148bff8d2635cd70207acf0e427a8fea7e4e2e7bbbabc38057"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/seasonal/season_state.py",
+      "bytes": 14358,
+      "sha256": "b36d10ad041edb9385fe1802b9cc7ac07141486f0c3129e241953009b9c867ac"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/seasonal/stochastic_lp.py",
+      "bytes": 6625,
+      "sha256": "01a1969837df02471ac31f74276c77706fce32d68a3c35eddd7c131b89b38484"
+    },
+    {
+      "path": "代码/问题4/问题4-2/deps/seasonal/weekly_effect.py",
+      "bytes": 15181,
+      "sha256": "342a36b0c37e040132ac35780e3f6c3171f2c1bfacbc28f3d7f583eb83a9a98f"
+    },
+    {
+      "path": "代码/问题4/问题4-2/一键运行.cmd",
+      "bytes": 546,
+      "sha256": "c255046fe38bf233696c4509294e4d70da2e582ab3aa86deca0618b435320410"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/accuracy.py",
+      "bytes": 13161,
+      "sha256": "c2f385aa13524a7166eac9dd29b858f28824e0a5c13b31372ce9e47c2cd20f36"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/common.py",
+      "bytes": 12630,
+      "sha256": "f937bb005608ef7e5dcdb33784df1b973ec8f06d4eedbfb249bd7d8b255bf019"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/cost_ladder.py",
+      "bytes": 3847,
+      "sha256": "c5b748f9f61f97911fa4cbda4b097775b6dfb8f927cee01063e87bcd41a17cf5"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/dispatch_core.py",
+      "bytes": 18370,
+      "sha256": "73ffaeab53e93f1c9731e260faf081dd8d1b34bf65a7b8dbcd940bd7a9f3961b"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/export_result3.py",
+      "bytes": 31837,
+      "sha256": "b3930b2560a5faabed895aa1acbb0a32670ba5def58cd983ecae3226e12e0208"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/forecasts.py",
+      "bytes": 13813,
+      "sha256": "b5721762e2424b93b8478074116f550df0b6f214db0eb18cc241688584521b13"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/gen_price_channel.py",
+      "bytes": 4092,
+      "sha256": "360091337de8da34f65acc838cb2d2075d63b713ac1470517367dba7713b112d"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/models.py",
+      "bytes": 24076,
+      "sha256": "6de4160ec6c7ea9850a55cfcc1f1ea5ee07a38d31253e78d449281367b5e6ba9"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/oracle_lower_bound3.py",
+      "bytes": 5330,
+      "sha256": "9f420a5f744c3a7714a4a13b517f62a807cef17806e06fdf66acfc10d01edab3"
+    },
+    {
+      "path": "代码/问题4/问题4-3/deps/run_models.py",
+      "bytes": 6323,
+      "sha256": "b2ad768df823eb60adf1812ffd8a928f0fbdcfa224ab5e6e3c401c906c01623e"
+    },
+    {
+      "path": "代码/问题4/问题4-3/一键运行.cmd",
+      "bytes": 546,
+      "sha256": "afc7f8d6eaace02eb33f5b40c2ba3441a2a2aa5ee28b938ae77245cada694834"
+    },
+    {
+      "path": "先运行_还原明细.cmd",
+      "bytes": 59,
+      "sha256": "ff1bd9bea35343c714ab11c16a67db3dbc8cbd13b244402b5bbfee5dcf02a5b7"
+    },
+    {
+      "path": "压缩明细还原清单.json",
+      "bytes": 703,
+      "sha256": "01270b842cbd117024162ff1a155acf469ddc1e4aa04c513ba86add02bd973fe"
+    },
+    {
+      "path": "图表/图表说明.md",
+      "bytes": 13084,
+      "sha256": "e324cb647dd0c07313f92e9e79025a24d06c4aff252d865e77b73fa2209181b3"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_SOC范围与储备.csv",
+      "bytes": 28152,
+      "sha256": "a810032ac8d43143705b35c23f250b39b5598543656d60df0a5d948003be4678"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_四个指定日期_调度.csv",
+      "bytes": 133020,
+      "sha256": "5c03ba2fb7155a9db54385d3727a34d0425e586d445939fc91754fb98c0c6878"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_指定日期_表1.csv",
+      "bytes": 620,
+      "sha256": "846fa8ddab1c24f6e07d0c20309ccb431c2b17d3e72a0f83ed6dcd9ec2621be5"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_指定日期_表2.csv",
+      "bytes": 1103,
+      "sha256": "ab820ba4fc5a6ffd932dfff5933eaeca71c997f7765501006a230b5e201becf0"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_指定日期_表3.csv",
+      "bytes": 439,
+      "sha256": "04c883c56cea0a6827d1f159b485eef02f7d6dff567febd9e443c50d262e2526"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_最终分位风险覆盖率.csv",
+      "bytes": 102,
+      "sha256": "e3b460e2e78f6b32609956e9ae94157e27b47efd671bcded5b77502b8f6079c0"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_月度统计.csv",
+      "bytes": 752,
+      "sha256": "89ad7a5e28f987a60440a2df712d7f3b091f17f03a0fb94e8c952f50a9635cca"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_表B_逐日.csv",
+      "bytes": 99266,
+      "sha256": "75c5503ad524fbcbff000dd14994caee204856981dc82ab53e56ba764b5be12c"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_表D_分位数扫描_正式期334天.csv",
+      "bytes": 1652,
+      "sha256": "36551a1388ce15b2f72c42bc66aa5570945a66b69c54fbca2e5f44b62fa6a311"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_预测与朴素基准对比.csv",
+      "bytes": 285,
+      "sha256": "a42d5720e1b534af460633a2f2d4e1c6e9b47268e379e2576214dbc6fd7e218d"
+    },
+    {
+      "path": "图表/数据表/Q2_reserve-mpc_预测误差分位带.csv",
+      "bytes": 38314,
+      "sha256": "f6d3d9bb444a07622bd85244cf18e1211760ef32d671428496dd8c6a5a649a6f"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_SOC范围与储备.csv",
+      "bytes": 28108,
+      "sha256": "332534da94117640ae6f594f50d37b44de6bbf977df217c59caa06e193ae341f"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_四个指定日期_调度.csv",
+      "bytes": 133913,
+      "sha256": "fa7208716f064d09c3ba3f158460376320d77436168f363f472665c1cb9172b1"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_指定日期_表1.csv",
+      "bytes": 619,
+      "sha256": "5df197b645351f0bc3c0de23c0c2516f73a1e69e805676771acde2478d372d47"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_指定日期_表2.csv",
+      "bytes": 1109,
+      "sha256": "9f33deee874911dc649c3feeb58d74bc4a490bf678ff973a534f4bcdbe04b6d5"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_指定日期_表3.csv",
+      "bytes": 136,
+      "sha256": "7e4d9a41cda25256287084fd3dc8fd27f41b8308c6f84a8768660c8ad46016b1"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_最终分位风险覆盖率.csv",
+      "bytes": 232,
+      "sha256": "339fea5d5f24c6a5f78b528c7fc3aa1d3f74a7f3b499b8a4388d70113bf1a883"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_月度统计.csv",
+      "bytes": 1475,
+      "sha256": "df8c1271697edb835fa32fcae8e0cd69f3ffa4d3360ff42ffa33e112045c7ed2"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_表B_逐日.csv",
+      "bytes": 152037,
+      "sha256": "64750baa4cd9ac8fc3f3738fc249c02827ed24757fbd478b5efa24fb578172ae"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_表D_分位数扫描_正式期334天.csv",
+      "bytes": 2098,
+      "sha256": "ad1078681bc472aa7a07851c26eeee79718a9a72414366b406840bf65f508c70"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_预测与朴素基准对比.csv",
+      "bytes": 286,
+      "sha256": "9b60c454ab8b292538dc827d1456fe79f90d0cce7f699c0af97fab0ee4a01448"
+    },
+    {
+      "path": "图表/数据表/Q3_exact-greedy_预测误差分位带.csv",
+      "bytes": 39045,
+      "sha256": "a17e0c8b4044c3f2ac8eb70db12682130f714197b9a91b53dce5c0731c55de93"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_SOC范围与储备.csv",
+      "bytes": 28019,
+      "sha256": "86818edcaf18591c907e70b6cf5b05d1a256cc4f3d0ae6f83aca15faebeb3f2a"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_四个指定日期_调度.csv",
+      "bytes": 137435,
+      "sha256": "b4e7c4201a477e592630f881f2ce25265a6bb298f87c4ef4aa5a56c908a8fadd"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_指定日期_表1.csv",
+      "bytes": 611,
+      "sha256": "070bb14b174a4692be10d660ecd447776a3463053c3f9dfef9b4b9cf01d7429a"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_指定日期_表2.csv",
+      "bytes": 1118,
+      "sha256": "2059bf5a07a977be8ae3f527fb6bb36d1989cdcbc62043adcb47d0b598ad931b"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_指定日期_表3.csv",
+      "bytes": 485,
+      "sha256": "a40e5144105d9ddeea7feb8bcc6952f1450d9e1154cb9377ac2bc3a10bb7df99"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_最终分位风险覆盖率.csv",
+      "bytes": 104,
+      "sha256": "1526cfcff6fe974dfcd8414c2fcf5d75baf25163e6c7ce5efc6c4ab9d506d009"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_月度统计.csv",
+      "bytes": 750,
+      "sha256": "a62de86c538d6805f152f13c9a2898d38ab4973498a04910b2f48b2ded4a1227"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_表B_逐日.csv",
+      "bytes": 99415,
+      "sha256": "7708946e8bdda161f7677b6b2270e78f67348b74152cade1a31ff5cc5decd8d8"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_表D_分位数扫描_正式期334天.csv",
+      "bytes": 1669,
+      "sha256": "ef44b8ac9726210938f136184a87b2900a8ff04fb1f67bebfda6f827bcd45d2a"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_预测与朴素基准对比.csv",
+      "bytes": 285,
+      "sha256": "a42d5720e1b534af460633a2f2d4e1c6e9b47268e379e2576214dbc6fd7e218d"
+    },
+    {
+      "path": "图表/数据表/Q4-2_reserve-mpc_预测误差分位带.csv",
+      "bytes": 38314,
+      "sha256": "f6d3d9bb444a07622bd85244cf18e1211760ef32d671428496dd8c6a5a649a6f"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_SOC范围与储备.csv",
+      "bytes": 27843,
+      "sha256": "ed0dd6270211547d7bb1cdb12e6abb3eaafe921adcd8437db7cd50966d128599"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_四个指定日期_调度.csv",
+      "bytes": 138175,
+      "sha256": "b6aac158bd00e0cb3b8290ea6034dcaaf21616d4238f60e23a0f1febcbbbb091"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_指定日期_表1.csv",
+      "bytes": 611,
+      "sha256": "773bd25be0a226474212ba414f097d38fb177d44ab7aeb77c967118a61e8251b"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_指定日期_表2.csv",
+      "bytes": 1123,
+      "sha256": "7b02102cdf3c1729535394ded80f1557d92dcb3b1db2f229ede77e663da75d3e"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_指定日期_表3.csv",
+      "bytes": 182,
+      "sha256": "7a3ca37a5dff687bc2113e84d04c9f53b97d1e492ef4b9da992e8f1037a30588"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_最终分位风险覆盖率.csv",
+      "bytes": 240,
+      "sha256": "3b7eb8502a93b2cdf8809e324456ff21c6c55c8677aa243ca8ac49d845df37b4"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_月度统计.csv",
+      "bytes": 1476,
+      "sha256": "3eb93affbcb3b35b185d9f160537e5ede82c370409628a7d91ab8b0fdd97e846"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_表B_逐日.csv",
+      "bytes": 151771,
+      "sha256": "a01d58f7e5846400637dd303a767b103e556c6ccbad7cdafcf3d8bdb73f9b3ab"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_表D_分位数扫描_正式期334天.csv",
+      "bytes": 2116,
+      "sha256": "35cd54d5d6bd55f0eaa36c1df18e2a44e01f2fcfe3b1ed03da6f7e2e4341f054"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_预测与朴素基准对比.csv",
+      "bytes": 286,
+      "sha256": "9b60c454ab8b292538dc827d1456fe79f90d0cce7f699c0af97fab0ee4a01448"
+    },
+    {
+      "path": "图表/数据表/Q4-3_exact-greedy_预测误差分位带.csv",
+      "bytes": 39045,
+      "sha256": "a17e0c8b4044c3f2ac8eb70db12682130f714197b9a91b53dce5c0731c55de93"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q2_reserve-mpc_表B_逐日.csv",
+      "bytes": 108172,
+      "sha256": "d9abca979af2a5144d03cf6b556ee665c8b5d9788548a97e6f322ad9b81cbf6e"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q2_reserve-mpc_表D_分位数扫描_自然年365天.csv",
+      "bytes": 1662,
+      "sha256": "19f3a1e6bc67a954a151e1528b0fa82eda95d54d7fea072d9083bdc94d1551e2"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q3_exact-greedy_表B_逐日.csv",
+      "bytes": 164750,
+      "sha256": "1166ca6d1baf5cc020268760193b1cc3a6f4657ba44e8bae84ed985ca20460b1"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q3_exact-greedy_表D_分位数扫描_自然年365天.csv",
+      "bytes": 2118,
+      "sha256": "002a67b8946e1e257452cec2cab99b3132d28f05c050d9c9791bc68a354c1835"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q4-2_reserve-mpc_表B_逐日.csv",
+      "bytes": 108127,
+      "sha256": "d561c0f7777453f803c8ad88f8d4b6a6bfcf18c1f24371d2570d4857d3c92756"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q4-2_reserve-mpc_表D_分位数扫描_自然年365天.csv",
+      "bytes": 1680,
+      "sha256": "10a2aa0b11b268282972b3c67a719101a4ba5717b5789b9a0076e9842fd201a2"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q4-3_exact-greedy_表B_逐日.csv",
+      "bytes": 164461,
+      "sha256": "ff3347731729d3e96706dab6681ba2d5c8287a798d0530452f70b3b9ad95181c"
+    },
+    {
+      "path": "图表/数据表/自然年365天/Q4-3_exact-greedy_表D_分位数扫描_自然年365天.csv",
+      "bytes": 2136,
+      "sha256": "fd35a60f92e990d4aaad997a9f1b98592e32730ecbf46c7324df3cad1549e590"
+    },
+    {
+      "path": "图表/数据表/自然年365天/表F_全知下界阶梯_自然年365天.csv",
+      "bytes": 1166,
+      "sha256": "b9a70baaea4942d6e4cbf82752f2e2d21af496afb181246efaaeda907c35b1c2"
+    },
+    {
+      "path": "图表/数据表/自然年365天/表G_最终档位指标汇总_自然年365天.csv",
+      "bytes": 1204,
+      "sha256": "2dd441b7b7fb9b3d865f2e996380676645a0de79672ac4e6b3d19a60e7077542"
+    },
+    {
+      "path": "图表/数据表/表F_全知下界阶梯_正式期334天.csv",
+      "bytes": 1167,
+      "sha256": "e0d8c6d631deb2b6b391d706ab35e22b19c7012a54647a2313fc171e00b7b0a0"
+    },
+    {
+      "path": "图表/数据表/表G_最终档位指标汇总_正式期334天.csv",
+      "bytes": 1205,
+      "sha256": "94fd49fb981112f714e24d2338c92e9ab717d113400d065ef334db13e515fd28"
+    },
+    {
+      "path": "图表/数据表/表H_发布时点消融_正式期334天.csv",
+      "bytes": 2225,
+      "sha256": "1c777380906592ea7da42f6100773b93319783c5356b598e60599abd0fd85fc3"
+    },
+    {
+      "path": "图表/数据表/表V1_物理可行性核对.csv",
+      "bytes": 1121,
+      "sha256": "6fd65ba79ea2550a338379cf29abe1ab6acc91d0044e818339c52c16ffa270a1"
+    },
+    {
+      "path": "图表/数据表/附件1_固定电价144段.csv",
+      "bytes": 2502,
+      "sha256": "a0933a7e348f995f388872c9cf42db2dc1c4abf9999ac5fed3276744a104b67f"
+    },
+    {
+      "path": "环境/创建虚拟环境.cmd",
+      "bytes": 1259,
+      "sha256": "6eefd215b5a680ad081dcc4f47bd3b92c1969a68e7dcd812c5660d983b6bb07a"
+    },
+    {
+      "path": "结果/result/result1.xlsx",
+      "bytes": 8642,
+      "sha256": "b6c0c86e75320d52c8852657165509c171f6393e59056f6577ff6f5f2a28141b"
+    },
+    {
+      "path": "结果/result/result2.xlsx",
+      "bytes": 374061,
+      "sha256": "e5df223f5698c468c8c5975305a35f7de2dd1830640fe9f6840e709d742a2696"
+    },
+    {
+      "path": "结果/result/result3.xlsx",
+      "bytes": 604906,
+      "sha256": "8d8efe3496af0dc1aa2e69fb943c5ee0453106abffdb8ae62d4ca6b6924a5801"
+    },
+    {
+      "path": "结果/result/result4-2.xlsx",
+      "bytes": 374286,
+      "sha256": "250e28c7e9777da9d9689ca758c4068e2165670abc4adb24133f2f1a96ffcc94"
+    },
+    {
+      "path": "结果/result/result4-3.xlsx",
+      "bytes": 604964,
+      "sha256": "2fc39aacbd6d5b0b7ed5549743d34d1f3bb06084fd29fac5c356908e93f79e99"
+    },
+    {
+      "path": "结果/汇总/frozen_numbers.json",
+      "bytes": 2848,
+      "sha256": "124e023d96afebf5765128a684c9e4fb40f4af40a8ba03c98f83bd7043cc51d4"
+    },
+    {
+      "path": "结果/汇总/全年费用汇总.md",
+      "bytes": 420,
+      "sha256": "31f4dcae297c331813f5f7951819c3ff28898db4acea5e0417dc9bbeedaab3f4"
+    },
+    {
+      "path": "结果/汇总/表F_全知下界阶梯_正式期334天.csv",
+      "bytes": 1167,
+      "sha256": "e0d8c6d631deb2b6b391d706ab35e22b19c7012a54647a2313fc171e00b7b0a0"
+    },
+    {
+      "path": "结果/汇总/表G_最终档位指标汇总_正式期334天.csv",
+      "bytes": 1205,
+      "sha256": "94fd49fb981112f714e24d2338c92e9ab717d113400d065ef334db13e515fd28"
+    },
+    {
+      "path": "结果/问题1/result1_约束A（固定）.xlsx",
+      "bytes": 8644,
+      "sha256": "d9d8609a79fc1679407560d4bbe140f6c1e2c377ae4def04e32a739ebe155ddc"
+    },
+    {
+      "path": "结果/问题1/result1_约束B（自由）.xlsx",
+      "bytes": 8649,
+      "sha256": "f776bbf916d479290f0cdb994beafae3255d88cfcf6f3e40c8d122cd85f3711f"
+    },
+    {
+      "path": "结果/问题1/约束A（固定）_完整结果.csv",
+      "bytes": 14268,
+      "sha256": "dd12ce4068c98c3e1b6e73b295b33748265f20a80195b99ef67155703fee667c"
+    },
+    {
+      "path": "结果/问题1/约束B（自由）_完整结果.csv",
+      "bytes": 14273,
+      "sha256": "62f585c9ccba627948c54d8316040d5d228eb75242035970df435d94ff7f4075"
+    },
+    {
+      "path": "结果/问题1/问题一结果_约束AB.xlsx",
+      "bytes": 29867,
+      "sha256": "fe0dc702b70624350b4dcde7c5a9c5a6697fcf674cc3ba9e271db3b5cac998ce"
+    },
+    {
+      "path": "结果/问题1/预处理表.csv",
+      "bytes": 8700,
+      "sha256": "005040781180ce50fd311ee3cda615bbc0a1db80d9feffd5122f9398cb1c022d"
+    },
+    {
+      "path": "结果/问题2/Q2_daily.csv",
+      "bytes": 47811,
+      "sha256": "8857dbe050ad4a68ba73dc971ad5dc7a3b95033e61cc2731bc41c0844fe0a2b0"
+    },
+    {
+      "path": "结果/问题2/Q2_physical_10min.csv.xz",
+      "bytes": 2221700,
+      "sha256": "16c94d073d216069fc93b2e3f7ade555698757a1ae5515bacb6c45dd0eea8e88"
+    },
+    {
+      "path": "结果/问题2/Q2_plans.npz",
+      "bytes": 269813,
+      "sha256": "b13f6e08644b2a111523a72717c9060e247cd15b4fb4c6dac8afb69acccb109a"
+    },
+    {
+      "path": "结果/问题2/Q2_summary.json",
+      "bytes": 651,
+      "sha256": "2d687d06a3b2be0c30f5c2351ada26c841963cad24168cf392da834df469db79"
+    },
+    {
+      "path": "结果/问题3/Q3_daily.csv",
+      "bytes": 58276,
+      "sha256": "2de5da7ca358f86620bb050a7e7a2ab0c7b436b3a1fde71d6c27f4c64af5e491"
+    },
+    {
+      "path": "结果/问题3/Q3_physical_10min.csv.xz",
+      "bytes": 2235172,
+      "sha256": "f9b3a2acc0a5d01e3d5b660a500e37b889a878b40fc0a4ae0cdc2f06124250da"
+    },
+    {
+      "path": "结果/问题3/Q3_plans.npz",
+      "bytes": 447270,
+      "sha256": "058647d9cdeffbce949067d6351e73a24b0da99efca71ddb0f69b6b764d1062f"
+    },
+    {
+      "path": "结果/问题3/Q3_summary.json",
+      "bytes": 669,
+      "sha256": "39f102b7e67f69fd6084976302617f05339d26baa579f4d0a5488c7b6d2d13f3"
+    },
+    {
+      "path": "结果/问题4/问题4-2/Q4-2_daily.csv",
+      "bytes": 47718,
+      "sha256": "afb174ee1594b4040c6e2001018a46092d2aee180623e8ec96531d203f70d95c"
+    },
+    {
+      "path": "结果/问题4/问题4-2/Q4-2_physical_10min.csv.xz",
+      "bytes": 2318216,
+      "sha256": "d73bb8b1479d5f0fd786469af6605a5ab6715bd3cbbba1ed9d2375eeed2f2159"
+    },
+    {
+      "path": "结果/问题4/问题4-2/Q4-2_plans.npz",
+      "bytes": 270266,
+      "sha256": "48050aa7d64cf7df93c59d001d7080e6b09388aeecd7acf9744b0fc237429511"
+    },
+    {
+      "path": "结果/问题4/问题4-2/Q4-2_summary.json",
+      "bytes": 673,
+      "sha256": "f0d99b54aefd848ccd8886936cd348c1da0f1156bc6b7626cb0967c9337d499a"
+    },
+    {
+      "path": "结果/问题4/问题4-3/Q4-3_daily.csv",
+      "bytes": 57913,
+      "sha256": "c6016ed0a0791b5243aaacebf31056408f9ba8e30c7ddf7557ec0efec6561360"
+    },
+    {
+      "path": "结果/问题4/问题4-3/Q4-3_physical_10min.csv.xz",
+      "bytes": 2329396,
+      "sha256": "33f7039cfacf6b5181f96f69e0b9921ff49d37452e320ad4d35789dc2f19dbeb"
+    },
+    {
+      "path": "结果/问题4/问题4-3/Q4-3_plans.npz",
+      "bytes": 447522,
+      "sha256": "65a8a578f6f93484d35b5b3f200c931a0874d92f61ce3f03a4a5c085275576b8"
+    },
+    {
+      "path": "结果/问题4/问题4-3/Q4-3_summary.json",
+      "bytes": 672,
+      "sha256": "a60750085619db0b1d9432d9f5831b72fdd8b1cd86015c8d35baee87067b995f"
+    },
+    {
+      "path": "论文/方法说明与模型评价.md",
+      "bytes": 58642,
+      "sha256": "b6caa2adf80fa534ec1e58dca1e4ccb2407a3d4c3287b3c3a44c07fc42267006"
+    },
+    {
+      "path": "论文/时间口径说明.md",
+      "bytes": 15074,
+      "sha256": "c108dcedfdfc6d80748f7567b3ba07800015d756c423389b83d3b5b71aedb44a"
+    },
+    {
+      "path": "论文/模型介绍.md",
+      "bytes": 27676,
+      "sha256": "d3869d000a4749c409fc3270b57d1f84641f225c1d74751dfbf91f426a759f41"
+    },
+    {
+      "path": "论文/符号规定.md",
+      "bytes": 11230,
+      "sha256": "b3d92fa693168df7b28cd211102860c8759f3544ee07b8345c2be19132928490"
+    },
+    {
+      "path": "论文/论文.md",
+      "bytes": 86211,
+      "sha256": "8db84ed47dac2cc6530c09bbce875ed7e0c5452faf0e4f033349de8547f2f786"
+    },
+    {
+      "path": "还原压缩明细.py",
+      "bytes": 1041,
+      "sha256": "5d1b027b53a9812a03b5fba5679d5b5527d8f31eb6dd918f49af8a8e55f0d560"
+    },
+    {
+      "path": "验证/代码/audits/DF完成核验.json",
+      "bytes": 14395,
+      "sha256": "523c24045115ce9b7b909052f93fc18b65ca131654b497c285fb5f893c7b56a0"
+    },
+    {
+      "path": "验证/代码/audits/DF补算汇总.md",
+      "bytes": 1208,
+      "sha256": "bba723c8fcd95e4a5e4c4d713075a23aef2eb3378b7545b039bae89779ccd931"
+    },
+    {
+      "path": "验证/代码/audits/finalize_df.py",
+      "bytes": 6776,
+      "sha256": "35761390dc5d415384e60c4b025dbacf8c129c241aac1a0f6303faaf06d0a60b"
+    },
+    {
+      "path": "验证/代码/audits/logic_audit.py",
+      "bytes": 12137,
+      "sha256": "e5b6e7685822e58e5eb830521fd07a385baa91019a106a0527b34a9f20b34d41"
+    },
+    {
+      "path": "验证/代码/audits/logic_evidence.json",
+      "bytes": 5007,
+      "sha256": "83b46da48cabdb2f355e6030159a08806d2bc9d198c50a10a96d3dde082ce3fc"
+    },
+    {
+      "path": "验证/代码/audits/run_d_numeric.py",
+      "bytes": 1461,
+      "sha256": "2f45690d7ef2905342040abec38a308752c6b74a72276627fc54dbf42b9c3be7"
+    },
+    {
+      "path": "验证/代码/audits/历史昼夜掩码误置零示例.csv",
+      "bytes": 595,
+      "sha256": "67f9b0e2129f36dd0fcd8473ed680fa44f9c285673ac7ad95edda54c3f61fbcf"
+    },
+    {
+      "path": "验证/代码/audits/年终保护成本诊断.csv",
+      "bytes": 837,
+      "sha256": "2ea82a48ab516906ae9a4b50b97927b17c3b407ff6bcb40cbf5f5c1697e37896"
+    },
+    {
+      "path": "验证/代码/audits/精确链式阶段目标独立检查.csv",
+      "bytes": 216,
+      "sha256": "4b6a3d60e362e573972c917658cfa54041daff2d989a23c11b91f4a8858b7e2e"
+    },
+    {
+      "path": "验证/代码/audits/逻辑检查报告.md",
+      "bytes": 8372,
+      "sha256": "4c07f3ae660879bfe2f28fa058c9e13eb364ab650376646b8f70cbb1c69919ad"
+    },
+    {
+      "path": "验证/代码/test_time_rules.py",
+      "bytes": 3736,
+      "sha256": "6fbc12786d2ac0952f34165ae8208b122189254685141db70a9866d2c755fcbe"
+    },
+    {
+      "path": "验证/代码/verify_results.py",
+      "bytes": 3893,
+      "sha256": "366c90b8e54349a1bf80c20703e69472442ccf0bd14a15328310a012fc1522bc"
+    },
+    {
+      "path": "验证/代码/问题1/check_model.py",
+      "bytes": 10469,
+      "sha256": "86142e2c23febe29fedfa0c078d4c94206692422a7e898974d37fc8be79a9205"
+    },
+    {
+      "path": "验证/代码/问题1/check_optimal.py",
+      "bytes": 12276,
+      "sha256": "a80887d993a01f7470659ebeab855f327d8cebafd527e325386a07b9813b07c9"
+    },
+    {
+      "path": "验证/代码/问题1/README.md",
+      "bytes": 4019,
+      "sha256": "dab009eeab2d98c87ed3084a20f22e56702b5254b43dfe517d50beb5f8b38a41"
+    },
+    {
+      "path": "验证/代码/问题1/sensitivity.py",
+      "bytes": 11586,
+      "sha256": "86a8313624c6e198a3cd62a2bfe6dbe9de1de3aa91f7a5f151bd0c3e8653cd03"
+    },
+    {
+      "path": "验证/代码/问题1/tableio.py",
+      "bytes": 4875,
+      "sha256": "012e1883ece83be28becc20fe530b642d058a8cf262f61c3bb174ddfe970a458"
+    },
+    {
+      "path": "验证/报告/annual_audit.json",
+      "bytes": 55977,
+      "sha256": "902be9cafe3b0a575d30119c3bb84395f5480fa61c8aa681758390a3446fe612"
+    },
+    {
+      "path": "验证/报告/time_tests.json",
+      "bytes": 531,
+      "sha256": "772a5f961d226ef295ff397d4b008c79c5643f13b888e117498e0d29241e6cd9"
+    },
+    {
+      "path": "验证/报告/封版核验.md",
+      "bytes": 644,
+      "sha256": "3724ce42979138f0e16c5295bf5c1be9b8e39315c82e6f6ed61a0a21c4b3e393"
+    },
+    {
+      "path": "验证/报告/验证说明.md",
+      "bytes": 3774,
+      "sha256": "a2de7ecb735a55eb1af36d62f764ccca1a02cc2fc78e6b16b7b91be8afb651ed"
+    },
+    {
+      "path": "验证/数据/历史昼夜掩码误置零示例.csv",
+      "bytes": 595,
+      "sha256": "67f9b0e2129f36dd0fcd8473ed680fa44f9c285673ac7ad95edda54c3f61fbcf"
+    },
+    {
+      "path": "验证/数据/年终保护成本诊断.csv",
+      "bytes": 837,
+      "sha256": "2ea82a48ab516906ae9a4b50b97927b17c3b407ff6bcb40cbf5f5c1697e37896"
+    },
+    {
+      "path": "验证/数据/精确链式阶段目标独立检查.csv",
+      "bytes": 216,
+      "sha256": "4b6a3d60e362e573972c917658cfa54041daff2d989a23c11b91f4a8858b7e2e"
+    }
+  ]
+}
