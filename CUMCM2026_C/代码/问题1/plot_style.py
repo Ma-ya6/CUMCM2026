@@ -11,7 +11,7 @@
     C_FOURTH    #009473  青绿   光伏、充电功率、Q3
     C_RED_LIGHT #E57373  浅红   放电功率
     C_GUIDE     #9AA4B2  灰蓝   参考线（零线、SOC 上下限、基准线）
-    C_PURPLE    #7E57C2  紫色   紧急购电、Q4-3
+    C_PURPLE    #6E2277  深紫   紧急购电、Q4-3
     C_TEXT      #333333  深灰   坐标轴刻度与标签
     C_FRAME     #333333  深灰   坐标框线
     C_GRID      #DDDDDD  浅灰   内部网格
@@ -37,7 +37,7 @@ C_SECOND    = "#00A3FF"     # 亮蓝 · 次色
 C_FOURTH    = "#009473"     # 青绿 · 第四档
 C_RED_LIGHT = "#E57373"     # 浅红
 C_GUIDE     = "#9AA4B2"     # 灰蓝 · 参考线
-C_PURPLE    = "#7E57C2"     # 紫
+C_PURPLE    = "#6E2277"     # 深紫
 C_TEXT      = "#333333"     # 刻度与标签
 C_FRAME     = "#333333"     # 坐标框线
 C_GRID      = "#DDDDDD"     # 内部网格

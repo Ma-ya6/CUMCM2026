@@ -27,6 +27,7 @@ from pathlib import Path
 import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
+from matplotlib.lines import Line2D
 import numpy as np
 import pandas as pd
 
@@ -45,6 +46,8 @@ from plot_style import (C_MAIN, C_SECOND, C_FOURTH, C_RED_LIGHT,   # noqa: E402
 apply_base_style()
 
 TO_KW = 6.0                                     # 十分钟电量 → 平均功率
+C_THIRD = "#DDCC77"                             # 沙黄 · 首次承诺 x0
+C_FIFTH = "#9D2B2B"                             # 深红 · 第五档
 TAGS = {"Q2": "reserve-mpc", "Q3": "exact-greedy",
         "Q4-2": "reserve-mpc", "Q4-3": "exact-greedy"}
 LABEL = {"Q2": "问题2", "Q3": "问题3", "Q4-2": "问题4-2", "Q4-3": "问题4-3"}
@@ -203,27 +206,34 @@ def q2_3(four):  # noqa: ARG001
 
 
 def q2_4(four):  # noqa: ARG001
-    """SOC 范围与日储备。检查储能是否越界、储备 R 是否被上限截断。"""
+    """SOC 范围与日储备。上栏看储能是否越界，下栏看储备 R 的水平。"""
     s = tab("Q2", "SOC范围与储备")
     x = pd.to_datetime(s["date"])
-    fig, ax = plt.subplots(figsize=(13, 4.6))
-    ax.fill_between(x, s.soc_min_kwh, s.soc_max_kwh, color=C_MAIN, alpha=0.22,
-                    label="当日 SOC 范围")
-    ax.plot(x, s.end_soc_kwh, color=C_MAIN, linewidth=1.3, label="日末储电量")
-    ax.axhline(1200, color=C_GUIDE, linewidth=0.9, linestyle="--")
-    ax.axhline(10800, color=C_GUIDE, linewidth=0.9, linestyle="--")
-    ax.set_ylim(0, 12000)
-    ax.set_ylabel("储电量 / kWh", color=C_TEXT)
-    ax.set_xlabel("日期", color=C_TEXT)
-    axr = ax.twinx()
-    axr.plot(x, s.reserve_kwh, color=C_SECOND, linewidth=1.3, label="安全余量 R（右轴）")
-    axr.axhline(4800, color=C_RED_LIGHT, linewidth=0.9, linestyle="--")
-    axr.set_ylabel("安全余量 / kWh", color=C_TEXT)
-    style_frame_grid(ax)
-    style_frame_grid(axr, grid=False, frame=False)
-    h1, l1 = ax.get_legend_handles_labels()
-    h2, l2 = axr.get_legend_handles_labels()
-    ax.legend(h1 + h2, l1 + l2, loc="upper left", ncol=2, framealpha=0.9)
+    e_min = float(s["E_min_kwh"].iloc[0])
+    e_max = float(s["E_max_kwh"].iloc[0])
+
+    fig, (ax1, ax2) = plt.subplots(2, 1, figsize=(9.6, 6.0), sharex=True,
+                                   gridspec_kw={"height_ratios": [1.35, 1]})
+    ax1.fill_between(x, s.soc_min_kwh, s.soc_max_kwh, color=C_SECOND, alpha=0.25,
+                     label="日内储电量范围")
+    ax1.plot(x, s.end_soc_kwh, color=C_PURPLE, linewidth=2.0, label="24:00 储电量")
+    ax1.axhline(e_max, color=C_GUIDE, linewidth=1.4, linestyle="--")
+    ax1.axhline(e_min, color=C_GUIDE, linewidth=1.4, linestyle="--")
+    ax1.text(x.iloc[2], e_max + 350, f"上限 {e_max:.0f}", fontsize=9.5,
+             color="#78859F", va="bottom")
+    ax1.text(x.iloc[2], e_min + 120, f"下限 {e_min:.0f}", fontsize=9.5,
+             color="#78859F", va="bottom")
+    ax1.set_ylim(0, 11800)
+    ax1.set_ylabel("储电量 / kWh", color=C_TEXT)
+    ax1.legend(loc="lower left", framealpha=0.9, fontsize=10,
+               bbox_to_anchor=(0.008, 0.20), borderaxespad=0)
+    style_frame_grid(ax1)
+
+    ax2.plot(x, s.reserve_kwh, color=C_MAIN, linewidth=1.6)
+    ax2.set_ylabel("日储备 R / kWh", color=C_TEXT)
+    ax2.set_xlabel("日期", color=C_TEXT)
+    style_frame_grid(ax2)
+
     save(fig, CHARTS / "问题2" / "Q2-4_SOC范围与日储备.png")
 
 
@@ -262,25 +272,39 @@ def q3_1(four):  # noqa: ARG001
 def q3_2(four):
     """四个指定日期的 x0→x3 承诺修订过程。"""
     d = tab("Q3", "四个指定日期_调度")
-    fig = plt.figure(figsize=(13, 7))
-    axes = four_dates_grid(fig, four)
+    fig, axes = plt.subplots(2, 2, figsize=(11.8, 7.0))
     for ax, date in zip(axes.ravel(), four):
-        g = d[d.date == date]
-        h = hours(len(g))
-        ax.plot(h, g.x0_kwh * TO_KW, color=C_GUIDE, linewidth=1.5,
+        g = d[d.date == date].sort_values("t")
+        x = hours(len(g)) + 1.0 / 12.0          # 十分钟时段的中间时刻
+        ax.plot(x, g.L_actual_kw, color=C_SECOND, linewidth=1.8, label="负载")
+        ax.plot(x, g.P_act_kw, color=C_FOURTH, linewidth=1.8, label="光伏")
+        ax.step(x, g.x0_kwh * TO_KW, color=C_THIRD, linewidth=1.6, where="mid",
                 label="首次承诺 x0")
-        ax.plot(h, g.x3_kwh * TO_KW, color=C_MAIN, linewidth=1.6,
+        ax.step(x, g.x3_kwh * TO_KW, color=C_MAIN, linewidth=1.6, where="mid",
                 label="最终承诺 x3")
-        ax.plot(h, g.L_actual_kw, color=C_SECOND, linewidth=1.0,
-                alpha=0.75, label="小区负载")
+        ax.set_xlim(0, 24)
+        ax.set_xticks(range(0, 25, 4))
+        ax.set_title(str(date), fontsize=11, color=C_TEXT, loc="left")
+        ax.set_xlabel("时刻 / h", color=C_TEXT, fontsize=10)
         ax.set_ylabel("功率 / kW", color=C_TEXT, fontsize=10)
+        style_frame_grid(ax)
+
         axr = ax.twinx()
-        axr.plot(h, g.E_end_kwh, color=C_FOURTH, linewidth=1.3, label="储电量")
+        axr.plot(x, g.E_end_kwh, color=C_PURPLE, linewidth=1.6, linestyle="--",
+                 label="SOC（右轴）")
         axr.set_ylim(0, 12000)
         axr.set_ylabel("储电量 / kWh", color=C_TEXT, fontsize=10)
-        style_frame_grid(axr, grid=False, frame=False)
-    axes[0, 0].legend(loc="upper left", fontsize=9, framealpha=0.9)
-    fig.supxlabel("时刻", color=C_TEXT)
+        style_frame_grid(axr, grid=False, frame=True)
+
+    handles = [Line2D([], [], color=C_SECOND, linewidth=1.8, label="负载"),
+               Line2D([], [], color=C_FOURTH, linewidth=1.8, label="光伏"),
+               Line2D([], [], color=C_THIRD, linewidth=1.6, label="首次承诺 x0"),
+               Line2D([], [], color=C_MAIN, linewidth=1.6, label="最终承诺 x3"),
+               Line2D([], [], color=C_PURPLE, linewidth=1.6, linestyle="--",
+                      label="SOC（右轴）")]
+    fig.legend(handles=handles, loc="upper center", ncol=5, frameon=False,
+               fontsize=10, bbox_to_anchor=(0.5, 0.995))
+    fig.subplots_adjust(top=0.90, hspace=0.45, wspace=0.45)
     save(fig, CHARTS / "问题3" / "Q3-2_四个指定日期调度.png")
 
 
@@ -342,21 +366,26 @@ def q3_4(four):  # noqa: ARG001
 
 
 def q3_5(four):  # noqa: ARG001
-    """逐日费用构成。看四类费用各占多少、费用是否被超购/违约推高。"""
+    """逐日费用构成。四类费用各占一张，看谁在波动、谁在主导。"""
     b = tab("Q3", "表B_逐日")
     x = pd.to_datetime(b["date"])
-    parts = [("base_cost_yuan", C_MAIN, "基础购电费"),
-             ("overbuy_cost_yuan", C_RED_LIGHT, "超购费（1.5 倍）"),
-             ("breach_cost_yuan", C_SECOND, "违约费（0.5 倍）"),
-             ("emergency_cost_yuan", C_PURPLE, "紧急购电费（5 倍）")]
-    fig, ax = plt.subplots(figsize=(13, 4.8))
-    ax.stackplot(x, *[b[c].values / 1e4 for c, _, _ in parts],
-                 colors=[c for _, c, _ in parts],
-                 labels=[n for _, _, n in parts], alpha=0.9)
-    ax.set_ylabel("费用 / 万元", color=C_TEXT)
-    ax.set_xlabel("日期", color=C_TEXT)
-    ax.legend(loc="upper left", ncol=4, framealpha=0.9, fontsize=9.5)
-    style_frame_grid(ax)
+    parts = [("基准购电费", "base_cost_yuan", C_MAIN),
+             ("超购费", "overbuy_cost_yuan", C_SECOND),
+             ("违约费", "breach_cost_yuan", C_THIRD),
+             ("紧急购电费", "emergency_cost_yuan", C_FIFTH)]
+
+    fig, axes = plt.subplots(2, 2, figsize=(11.2, 7.0), sharex=True)
+    for ax, (name, col, color) in zip(axes.ravel(), parts):
+        v = b[col].to_numpy(float)
+        ax.fill_between(x, 0, v, color=color, alpha=0.25)
+        ax.plot(x, v, color=color, linewidth=1.3)
+        ax.set_title(f"{name}（全年合计 {v.sum():.4g} 元）", fontsize=10,
+                     color=C_TEXT, loc="left")
+        ax.set_ylabel("日费用 / 元", color=C_TEXT, fontsize=10)
+        style_frame_grid(ax)
+    for ax in axes[1]:
+        ax.set_xlabel("日期", color=C_TEXT, fontsize=10)
+    fig.subplots_adjust(hspace=0.32, wspace=0.24)
     save(fig, CHARTS / "问题3" / "Q3-5_逐日费用构成.png")
 
 
