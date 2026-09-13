@@ -1,0 +1,58 @@
+[
+  {
+    "reference_number": 1,
+    "file": "[1]_GBT_29319-2024_光伏发电系统接入配电网技术规定.pdf",
+    "pages": 19,
+    "sha256": "0d615c02c1258716c101c9641949d529d2710bd932a4aee028eada2beed94b3f",
+    "bytes": 521287
+  },
+  {
+    "reference_number": 2,
+    "file": "[2]_Pacaud_2018_Stochastic_Microgrid.pdf",
+    "pages": 8,
+    "sha256": "761e34759c53036adac8c8f140dee1d3b48c317523d5ff7ed4f7ae012e3b03e5",
+    "bytes": 668703
+  },
+  {
+    "reference_number": 5,
+    "file": "[5]_NDRC_Fagai_Jiage_2021_1093_Notice.pdf",
+    "pages": 2,
+    "sha256": "aee6bdf623e8c2ca538c01246358a66e294091a034653afa8cca6c786a6e3716",
+    "bytes": 1136216
+  },
+  {
+    "reference_number": 6,
+    "file": "[6]_Ke_2017_LightGBM.pdf",
+    "pages": 9,
+    "sha256": "32ddfe0c7a8e1acb87c97cff904a16e0a556a8d79ebfecf772159843e736affc",
+    "bytes": 366352
+  },
+  {
+    "reference_number": 7,
+    "file": "[7]_Iheanetu_2022_PV_Forecasting_Review.pdf",
+    "pages": 34,
+    "sha256": "8e82bc703dbd59ff079c4abdec2f87a7dd953b97c0ea916989be167e9814dc3c",
+    "bytes": 907071
+  },
+  {
+    "reference_number": 8,
+    "file": "[8]_Rockafellar_Uryasev_Optimization_of_CVaR.pdf",
+    "pages": 21,
+    "sha256": "be8b1800419d635d5d5b527c254415dd98a24f09c1782808fa29aa70fc51ed6f",
+    "bytes": 290104
+  },
+  {
+    "reference_number": 9,
+    "file": "[9]_Morstyn_2017_MPC_Battery.pdf",
+    "pages": 8,
+    "sha256": "2770fa8bf957d473d1181293e3b0bcae1e03d3197a82df54c66ae6d071f031b7",
+    "bytes": 2076616
+  },
+  {
+    "reference_number": 10,
+    "file": "[10]_Perera_2022_PV_Forecast_Combinations.pdf",
+    "pages": 36,
+    "sha256": "acc33ac9bf778630f1366a3cb803290c8a129ccb37638571d281a766d1970a14",
+    "bytes": 1121321
+  }
+]
